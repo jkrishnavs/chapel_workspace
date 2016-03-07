@@ -6,10 +6,11 @@ proc foo () : c_ptr(int) {
 }
 
 var x : c_ptr(int);
-  x = foo();
-var i : int; 
+// cannot pass c_pt as argument.. 
+x = foo();
+var i: int; 
 var arr:  [100] int;
-  for(i = 0;i<100;i++){
-    a[i] = *x - 100;
+for i in 1 .. 100 do{
+    a[i] = x - 100;
     printf("%d %d\n",a[i],*x);
-  }
+}
