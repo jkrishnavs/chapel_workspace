@@ -16,7 +16,7 @@ proc foo(): int {
 
 var newcl : cls;
 //newcl = foo();
-va	r p : int;
+var p : int;
 p = foo();
 var arr : [{1..1000}] int;
 for i in {1 .. 1000} {

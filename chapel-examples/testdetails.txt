@@ -1,0 +1,1153 @@
+/home/jkrishnavs/chapel/chapel/test/users/npadmana/twopt/do_smu_aos.chpl
+$CHPL_HOMEtest/users/npadmana/twopt/do_smu_aos.chpl:210: In function 'TreeAccumulate':
+$CHPL_HOMEtest/users/npadmana/twopt/do_smu_aos.chpl:220: warning: Potential unsafe (use after free) use of variable p1 here. Please make sure the variable use is properly synced.
+$CHPL_HOMEtest/users/npadmana/twopt/do_smu_aos.chpl:220: warning: Potential unsafe (use after free) use of variable p2 here. Please make sure the variable use is properly synced.
+/home/jkrishnavs/chapel/chapel//lib/linux64/gnu/arch-native/loc-flat/comm-none/tasks-qthreads/tmr-generic/unwind-none/mem-jemalloc/atomics-intrinsics/gmp/hwloc/re2/wide-struct/fs-none/libchpl.a(re2-interface.o): In function `qio_regexp_replace':
+/home/jkrishnavs/chapel/chapel/runtime/src/qio/regexp/re2/re2-interface.cc:310: undefined reference to `re2::RE2::GlobalReplace(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >*, re2::RE2 const&, re2::StringPiece const&)'
+/home/jkrishnavs/chapel/chapel/runtime/src/qio/regexp/re2/re2-interface.cc:312: undefined reference to `re2::RE2::Replace(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >*, re2::RE2 const&, re2::StringPiece const&)'
+collect2: error: ld returned 1 exit status
+/home/jkrishnavs/chapel/chapel//runtime/etc/Makefile.exe:27: recipe for target '/tmp/chpl-jkrishnavs-2287.deleteme/a.out.tmp' failed
+make: *** [/tmp/chpl-jkrishnavs-2287.deleteme/a.out.tmp] Error 1
+error: compiling generated source
+
+real	0m13.017s
+user	0m12.700s
+sys	0m0.248s
+/home/jkrishnavs/chapel/chapel/test/parallel/begin/deitz/test_begin_cobegin2.chpl
+$CHPL_HOMEtest/parallel/begin/deitz/test_begin_cobegin2.chpl:1: In function 'main':
+$CHPL_HOMEtest/parallel/begin/deitz/test_begin_cobegin2.chpl:8: warning: Potential unsafe (use after free) use of variable y here. Please make sure the variable use is properly synced.
+
+real	0m6.265s
+user	0m6.028s
+sys	0m0.168s
+/home/jkrishnavs/chapel/chapel/test/parallel/begin/deitz/test_begin_error_lineno.chpl
+$CHPL_HOMEtest/parallel/begin/deitz/test_begin_error_lineno.chpl:9: warning: Potential unsafe (use after free) use of variable x here. Please make sure the variable use is properly synced.
+$CHPL_HOMEtest/parallel/begin/deitz/test_begin_error_lineno.chpl:9: warning: Potential unsafe (use after free) use of variable x here. Please make sure the variable use is properly synced.
+
+real	0m6.024s
+user	0m5.796s
+sys	0m0.152s
+/home/jkrishnavs/chapel/chapel/test/parallel/begin/vass/this-in-begin-in-method.chpl
+$CHPL_HOMEtest/parallel/begin/vass/this-in-begin-in-method.chpl:5: In function 'modify':
+$CHPL_HOMEtest/parallel/begin/vass/this-in-begin-in-method.chpl:7: warning: Potential unsafe (use after free) use of variable this here. Please make sure the variable use is properly synced.
+
+real	0m6.063s
+user	0m5.888s
+sys	0m0.112s
+/home/jkrishnavs/chapel/chapel/test/parallel/begin/waynew/array1.chpl
+$CHPL_HOMEtest/parallel/begin/waynew/array1.chpl:18: warning: Potential unsafe (use after free) use of variable a here. Please make sure the variable use is properly synced.
+$CHPL_HOMEtest/parallel/begin/waynew/array1.chpl:18: warning: Potential unsafe (use after free) use of variable a here. Please make sure the variable use is properly synced.
+$CHPL_HOMEtest/parallel/begin/waynew/array1.chpl:18: warning: Potential unsafe (use after free) use of variable a here. Please make sure the variable use is properly synced.
+$CHPL_HOMEtest/parallel/begin/waynew/array1.chpl:18: warning: Potential unsafe (use after free) use of variable a here. Please make sure the variable use is properly synced.
+
+real	0m6.960s
+user	0m6.732s
+sys	0m0.156s
+/home/jkrishnavs/chapel/chapel/test/parallel/begin/waynew/record1.chpl
+$CHPL_HOMEtest/parallel/begin/waynew/record1.chpl:12: warning: Potential unsafe (use after free) use of variable r here. Please make sure the variable use is properly synced.
+$CHPL_HOMEtest/parallel/begin/waynew/record1.chpl:13: warning: Potential unsafe (use after free) use of variable r here. Please make sure the variable use is properly synced.
+
+real	0m6.215s
+user	0m6.004s
+sys	0m0.144s
+/home/jkrishnavs/chapel/chapel/test/parallel/begin/sungeun/initCopyWithBegin.chpl
+$CHPL_HOMEtest/parallel/begin/sungeun/initCopyWithBegin.chpl:10: In function 'chpl__initCopy':
+$CHPL_HOMEtest/parallel/begin/sungeun/initCopyWithBegin.chpl:11: warning: Potential unsafe (use after free) use of variable glob here. Please make sure the variable use is properly synced.
+
+real	0m6.054s
+user	0m5.844s
+sys	0m0.136s
+/home/jkrishnavs/chapel/chapel/test/parallel/begin/sungeun/nested_fn_begin1.chpl
+$CHPL_HOMEtest/parallel/begin/sungeun/nested_fn_begin1.chpl:4: In function 'foo':
+$CHPL_HOMEtest/parallel/begin/sungeun/nested_fn_begin1.chpl:9: warning: Potential unsafe (use after free) use of variable x here. Please make sure the variable use is properly synced.
+$CHPL_HOMEtest/parallel/begin/sungeun/nested_fn_begin1.chpl:4: In function 'foo':
+$CHPL_HOMEtest/parallel/begin/sungeun/nested_fn_begin1.chpl:10: warning: Potential unsafe (use after free) use of variable x here. Please make sure the variable use is properly synced.
+$CHPL_HOMEtest/parallel/begin/sungeun/nested_fn_begin1.chpl:4: In function 'foo':
+$CHPL_HOMEtest/parallel/begin/sungeun/nested_fn_begin1.chpl:12: warning: Potential unsafe (use after free) use of variable x here. Please make sure the variable use is properly synced.
+
+real	0m6.150s
+user	0m5.920s
+sys	0m0.160s
+/home/jkrishnavs/chapel/chapel/test/parallel/sync/diten/userLevelEndCount.chpl
+$CHPL_HOMEtest/parallel/sync/diten/userLevelEndCount.chpl:32: In function 'main':
+$CHPL_HOMEtest/parallel/sync/diten/userLevelEndCount.chpl:39: warning: Potential unsafe (use after free) use of variable a here. Please make sure the variable use is properly synced.
+$CHPL_HOMEtest/parallel/sync/diten/userLevelEndCount.chpl:39: warning: Potential unsafe (use after free) use of variable a here. Please make sure the variable use is properly synced.
+
+real	0m6.306s
+user	0m6.124s
+sys	0m0.120s
+/home/jkrishnavs/chapel/chapel/test/parallel/sync/waynew/if1.chpl
+$CHPL_HOMEtest/parallel/sync/waynew/if1.chpl:16: warning: Potential unsafe (use after free) use of variable a here. Please make sure the variable use is properly synced.
+$CHPL_HOMEtest/parallel/sync/waynew/if1.chpl:16: warning: Potential unsafe (use after free) use of variable a here. Please make sure the variable use is properly synced.
+$CHPL_HOMEtest/parallel/sync/waynew/if1.chpl:16: warning: Potential unsafe (use after free) use of variable a here. Please make sure the variable use is properly synced.
+$CHPL_HOMEtest/parallel/sync/waynew/if1.chpl:16: warning: Potential unsafe (use after free) use of variable a here. Please make sure the variable use is properly synced.
+
+real	0m7.108s
+user	0m6.864s
+sys	0m0.176s
+/home/jkrishnavs/chapel/chapel/test/parallel/taskPar/figueroa/taskParallel.chpl
+$CHPL_HOMEtest/parallel/taskPar/figueroa/taskParallel.chpl:22: warning: Potential unsafe (use after free) use of variable notThereYet here. Please make sure the variable use is properly synced.
+$CHPL_HOMEtest/parallel/taskPar/figueroa/taskParallel.chpl:22: warning: Potential unsafe (use after free) use of variable notThereYet here. Please make sure the variable use is properly synced.
+$CHPL_HOMEtest/parallel/taskPar/figueroa/taskParallel.chpl:22: warning: Potential unsafe (use after free) use of variable notThereYet here. Please make sure the variable use is properly synced.
+$CHPL_HOMEtest/parallel/taskPar/figueroa/taskParallel.chpl:34: warning: Potential unsafe (use after free) use of variable notThereYet here. Please make sure the variable use is properly synced.
+
+real	0m7.447s
+user	0m7.168s
+sys	0m0.192s
+/home/jkrishnavs/chapel/chapel/test/parallel/taskPar/taskIntents/11-capture-in-begin.chpl
+$CHPL_HOMEtest/parallel/taskPar/taskIntents/11-capture-in-begin.chpl:654: warning: Potential unsafe (use after free) use of variable arr2 here. Please make sure the variable use is properly synced.
+$CHPL_HOMEtest/parallel/taskPar/taskIntents/11-capture-in-begin.chpl:653: warning: Potential unsafe (use after free) use of variable arr1 here. Please make sure the variable use is properly synced.
+$CHPL_HOMEtest/parallel/taskPar/taskIntents/11-capture-in-begin.chpl:516: warning: Potential unsafe (use after free) use of variable arr2 here. Please make sure the variable use is properly synced.
+$CHPL_HOMEtest/parallel/taskPar/taskIntents/11-capture-in-begin.chpl:515: warning: Potential unsafe (use after free) use of variable arr1 here. Please make sure the variable use is properly synced.
+
+real	0m12.174s
+user	0m11.864s
+sys	0m0.248s
+/home/jkrishnavs/chapel/chapel/test/parallel/taskPar/taskIntents/21-capture-in-cobegin.chpl
+internal error: seg fault [misc.cpp:491]
+
+real	0m5.601s
+user	0m5.516s
+sys	0m0.076s
+/home/jkrishnavs/chapel/chapel/test/parallel/taskPar/taskIntents/31-capture-in-coforall.chpl
+internal error: seg fault [misc.cpp:491]
+
+real	0m5.573s
+user	0m5.500s
+sys	0m0.068s
+/home/jkrishnavs/chapel/chapel/test/parallel/taskPar/taskIntents/32-no-capture-in-coforall.chpl
+internal error: seg fault [misc.cpp:491]
+
+real	0m5.700s
+user	0m5.592s
+sys	0m0.100s
+/home/jkrishnavs/chapel/chapel/test/parallel/taskPar/taskIntents/12-no-capture-in-begin.chpl
+$CHPL_HOMEtest/parallel/taskPar/taskIntents/12-no-capture-in-begin.chpl:781: warning: Potential unsafe (use after free) use of variable b8 here. Please make sure the variable use is properly synced.
+$CHPL_HOMEtest/parallel/taskPar/taskIntents/12-no-capture-in-begin.chpl:787: warning: Potential unsafe (use after free) use of variable u32 here. Please make sure the variable use is properly synced.
+$CHPL_HOMEtest/parallel/taskPar/taskIntents/12-no-capture-in-begin.chpl:780: warning: Potential unsafe (use after free) use of variable b0 here. Please make sure the variable use is properly synced.
+$CHPL_HOMEtest/parallel/taskPar/taskIntents/12-no-capture-in-begin.chpl:785: warning: Potential unsafe (use after free) use of variable u8 here. Please make sure the variable use is properly synced.
+$CHPL_HOMEtest/parallel/taskPar/taskIntents/12-no-capture-in-begin.chpl:784: warning: Potential unsafe (use after free) use of variable b64 here. Please make sure the variable use is properly synced.
+$CHPL_HOMEtest/parallel/taskPar/taskIntents/12-no-capture-in-begin.chpl:782: warning: Potential unsafe (use after free) use of variable b16 here. Please make sure the variable use is properly synced.
+$CHPL_HOMEtest/parallel/taskPar/taskIntents/12-no-capture-in-begin.chpl:789: warning: Potential unsafe (use after free) use of variable i8 here. Please make sure the variable use is properly synced.
+$CHPL_HOMEtest/parallel/taskPar/taskIntents/12-no-capture-in-begin.chpl:788: warning: Potential unsafe (use after free) use of variable u64 here. Please make sure the variable use is properly synced.
+$CHPL_HOMEtest/parallel/taskPar/taskIntents/12-no-capture-in-begin.chpl:783: warning: Potential unsafe (use after free) use of variable b32 here. Please make sure the variable use is properly synced.
+$CHPL_HOMEtest/parallel/taskPar/taskIntents/12-no-capture-in-begin.chpl:786: warning: Potential unsafe (use after free) use of variable u16 here. Please make sure the variable use is properly synced.
+$CHPL_HOMEtest/parallel/taskPar/taskIntents/12-no-capture-in-begin.chpl:821: warning: Potential unsafe (use after free) use of variable i32 here. Please make sure the variable use is properly synced.
+$CHPL_HOMEtest/parallel/taskPar/taskIntents/12-no-capture-in-begin.chpl:822: warning: Potential unsafe (use after free) use of variable i64 here. Please make sure the variable use is properly synced.
+$CHPL_HOMEtest/parallel/taskPar/taskIntents/12-no-capture-in-begin.chpl:836: warning: Potential unsafe (use after free) use of variable dom2 here. Please make sure the variable use is properly synced.
+$CHPL_HOMEtest/parallel/taskPar/taskIntents/12-no-capture-in-begin.chpl:837: warning: Potential unsafe (use after free) use of variable arr1 here. Please make sure the variable use is properly synced.
+$CHPL_HOMEtest/parallel/taskPar/taskIntents/12-no-capture-in-begin.chpl:824: warning: Potential unsafe (use after free) use of variable r64 here. Please make sure the variable use is properly synced.
+$CHPL_HOMEtest/parallel/taskPar/taskIntents/12-no-capture-in-begin.chpl:793: warning: Potential unsafe (use after free) use of variable r32 here. Please make sure the variable use is properly synced.
+$CHPL_HOMEtest/parallel/taskPar/taskIntents/12-no-capture-in-begin.chpl:792: warning: Potential unsafe (use after free) use of variable i64 here. Please make sure the variable use is properly synced.
+$CHPL_HOMEtest/parallel/taskPar/taskIntents/12-no-capture-in-begin.chpl:790: warning: Potential unsafe (use after free) use of variable i16 here. Please make sure the variable use is properly synced.
+$CHPL_HOMEtest/parallel/taskPar/taskIntents/12-no-capture-in-begin.chpl:817: warning: Potential unsafe (use after free) use of variable u32 here. Please make sure the variable use is properly synced.
+$CHPL_HOMEtest/parallel/taskPar/taskIntents/12-no-capture-in-begin.chpl:819: warning: Potential unsafe (use after free) use of variable i8 here. Please make sure the variable use is properly synced.
+$CHPL_HOMEtest/parallel/taskPar/taskIntents/12-no-capture-in-begin.chpl:808: warning: Potential unsafe (use after free) use of variable arr2 here. Please make sure the variable use is properly synced.
+$CHPL_HOMEtest/parallel/taskPar/taskIntents/12-no-capture-in-begin.chpl:812: warning: Potential unsafe (use after free) use of variable b16 here. Please make sure the variable use is properly synced.
+$CHPL_HOMEtest/parallel/taskPar/taskIntents/12-no-capture-in-begin.chpl:833: warning: Potential unsafe (use after free) use of variable cls here. Please make sure the variable use is properly synced.
+$CHPL_HOMEtest/parallel/taskPar/taskIntents/12-no-capture-in-begin.chpl:815: warning: Potential unsafe (use after free) use of variable u8 here. Please make sure the variable use is properly synced.
+$CHPL_HOMEtest/parallel/taskPar/taskIntents/12-no-capture-in-begin.chpl:823: warning: Potential unsafe (use after free) use of variable r32 here. Please make sure the variable use is properly synced.
+$CHPL_HOMEtest/parallel/taskPar/taskIntents/12-no-capture-in-begin.chpl:807: warning: Potential unsafe (use after free) use of variable arr1 here. Please make sure the variable use is properly synced.
+$CHPL_HOMEtest/parallel/taskPar/taskIntents/12-no-capture-in-begin.chpl:818: warning: Potential unsafe (use after free) use of variable u64 here. Please make sure the variable use is properly synced.
+$CHPL_HOMEtest/parallel/taskPar/taskIntents/12-no-capture-in-begin.chpl:814: warning: Potential unsafe (use after free) use of variable b64 here. Please make sure the variable use is properly synced.
+$CHPL_HOMEtest/parallel/taskPar/taskIntents/12-no-capture-in-begin.chpl:794: warning: Potential unsafe (use after free) use of variable r64 here. Please make sure the variable use is properly synced.
+$CHPL_HOMEtest/parallel/taskPar/taskIntents/12-no-capture-in-begin.chpl:796: warning: Potential unsafe (use after free) use of variable m64 here. Please make sure the variable use is properly synced.
+$CHPL_HOMEtest/parallel/taskPar/taskIntents/12-no-capture-in-begin.chpl:797: warning: Potential unsafe (use after free) use of variable z64 here. Please make sure the variable use is properly synced.
+$CHPL_HOMEtest/parallel/taskPar/taskIntents/12-no-capture-in-begin.chpl:805: warning: Potential unsafe (use after free) use of variable dom1 here. Please make sure the variable use is properly synced.
+$CHPL_HOMEtest/parallel/taskPar/taskIntents/12-no-capture-in-begin.chpl:800: warning: Potential unsafe (use after free) use of variable enm here. Please make sure the variable use is properly synced.
+$CHPL_HOMEtest/parallel/taskPar/taskIntents/12-no-capture-in-begin.chpl:672: warning: Potential unsafe (use after free) use of variable s$ here. Please make sure the variable use is properly synced.
+$CHPL_HOMEtest/parallel/taskPar/taskIntents/12-no-capture-in-begin.chpl:830: warning: Potential unsafe (use after free) use of variable enm here. Please make sure the variable use is properly synced.
+$CHPL_HOMEtest/parallel/taskPar/taskIntents/12-no-capture-in-begin.chpl:806: warning: Potential unsafe (use after free) use of variable dom2 here. Please make sure the variable use is properly synced.
+$CHPL_HOMEtest/parallel/taskPar/taskIntents/12-no-capture-in-begin.chpl:841: warning: Potential unsafe (use after free) use of variable s$ here. Please make sure the variable use is properly synced.
+$CHPL_HOMEtest/parallel/taskPar/taskIntents/12-no-capture-in-begin.chpl:838: warning: Potential unsafe (use after free) use of variable arr2 here. Please make sure the variable use is properly synced.
+$CHPL_HOMEtest/parallel/taskPar/taskIntents/12-no-capture-in-begin.chpl:827: warning: Potential unsafe (use after free) use of variable z64 here. Please make sure the variable use is properly synced.
+$CHPL_HOMEtest/parallel/taskPar/taskIntents/12-no-capture-in-begin.chpl:798: warning: Potential unsafe (use after free) use of variable z128 here. Please make sure the variable use is properly synced.
+$CHPL_HOMEtest/parallel/taskPar/taskIntents/12-no-capture-in-begin.chpl:803: warning: Potential unsafe (use after free) use of variable cls here. Please make sure the variable use is properly synced.
+$CHPL_HOMEtest/parallel/taskPar/taskIntents/12-no-capture-in-begin.chpl:795: warning: Potential unsafe (use after free) use of variable m32 here. Please make sure the variable use is properly synced.
+$CHPL_HOMEtest/parallel/taskPar/taskIntents/12-no-capture-in-begin.chpl:813: warning: Potential unsafe (use after free) use of variable b32 here. Please make sure the variable use is properly synced.
+$CHPL_HOMEtest/parallel/taskPar/taskIntents/12-no-capture-in-begin.chpl:811: warning: Potential unsafe (use after free) use of variable b8 here. Please make sure the variable use is properly synced.
+$CHPL_HOMEtest/parallel/taskPar/taskIntents/12-no-capture-in-begin.chpl:825: warning: Potential unsafe (use after free) use of variable m32 here. Please make sure the variable use is properly synced.
+$CHPL_HOMEtest/parallel/taskPar/taskIntents/12-no-capture-in-begin.chpl:810: warning: Potential unsafe (use after free) use of variable b0 here. Please make sure the variable use is properly synced.
+$CHPL_HOMEtest/parallel/taskPar/taskIntents/12-no-capture-in-begin.chpl:826: warning: Potential unsafe (use after free) use of variable m64 here. Please make sure the variable use is properly synced.
+$CHPL_HOMEtest/parallel/taskPar/taskIntents/12-no-capture-in-begin.chpl:820: warning: Potential unsafe (use after free) use of variable i16 here. Please make sure the variable use is properly synced.
+$CHPL_HOMEtest/parallel/taskPar/taskIntents/12-no-capture-in-begin.chpl:828: warning: Potential unsafe (use after free) use of variable z128 here. Please make sure the variable use is properly synced.
+$CHPL_HOMEtest/parallel/taskPar/taskIntents/12-no-capture-in-begin.chpl:816: warning: Potential unsafe (use after free) use of variable u16 here. Please make sure the variable use is properly synced.
+$CHPL_HOMEtest/parallel/taskPar/taskIntents/12-no-capture-in-begin.chpl:658: warning: Potential unsafe (use after free) use of variable z64 here. Please make sure the variable use is properly synced.
+$CHPL_HOMEtest/parallel/taskPar/taskIntents/12-no-capture-in-begin.chpl:659: warning: Potential unsafe (use after free) use of variable z128 here. Please make sure the variable use is properly synced.
+$CHPL_HOMEtest/parallel/taskPar/taskIntents/12-no-capture-in-begin.chpl:661: warning: Potential unsafe (use after free) use of variable enm here. Please make sure the variable use is properly synced.
+$CHPL_HOMEtest/parallel/taskPar/taskIntents/12-no-capture-in-begin.chpl:664: warning: Potential unsafe (use after free) use of variable cls here. Please make sure the variable use is properly synced.
+$CHPL_HOMEtest/parallel/taskPar/taskIntents/12-no-capture-in-begin.chpl:666: warning: Potential unsafe (use after free) use of variable dom1 here. Please make sure the variable use is properly synced.
+$CHPL_HOMEtest/parallel/taskPar/taskIntents/12-no-capture-in-begin.chpl:667: warning: Potential unsafe (use after free) use of variable dom2 here. Please make sure the variable use is properly synced.
+$CHPL_HOMEtest/parallel/taskPar/taskIntents/12-no-capture-in-begin.chpl:668: warning: Potential unsafe (use after free) use of variable arr1 here. Please make sure the variable use is properly synced.
+$CHPL_HOMEtest/parallel/taskPar/taskIntents/12-no-capture-in-begin.chpl:669: warning: Potential unsafe (use after free) use of variable arr2 here. Please make sure the variable use is properly synced.
+$CHPL_HOMEtest/parallel/taskPar/taskIntents/12-no-capture-in-begin.chpl:657: warning: Potential unsafe (use after free) use of variable m64 here. Please make sure the variable use is properly synced.
+$CHPL_HOMEtest/parallel/taskPar/taskIntents/12-no-capture-in-begin.chpl:656: warning: Potential unsafe (use after free) use of variable m32 here. Please make sure the variable use is properly synced.
+$CHPL_HOMEtest/parallel/taskPar/taskIntents/12-no-capture-in-begin.chpl:655: warning: Potential unsafe (use after free) use of variable r64 here. Please make sure the variable use is properly synced.
+$CHPL_HOMEtest/parallel/taskPar/taskIntents/12-no-capture-in-begin.chpl:654: warning: Potential unsafe (use after free) use of variable r32 here. Please make sure the variable use is properly synced.
+$CHPL_HOMEtest/parallel/taskPar/taskIntents/12-no-capture-in-begin.chpl:653: warning: Potential unsafe (use after free) use of variable i64 here. Please make sure the variable use is properly synced.
+$CHPL_HOMEtest/parallel/taskPar/taskIntents/12-no-capture-in-begin.chpl:652: warning: Potential unsafe (use after free) use of variable i32 here. Please make sure the variable use is properly synced.
+$CHPL_HOMEtest/parallel/taskPar/taskIntents/12-no-capture-in-begin.chpl:651: warning: Potential unsafe (use after free) use of variable i16 here. Please make sure the variable use is properly synced.
+$CHPL_HOMEtest/parallel/taskPar/taskIntents/12-no-capture-in-begin.chpl:650: warning: Potential unsafe (use after free) use of variable i8 here. Please make sure the variable use is properly synced.
+$CHPL_HOMEtest/parallel/taskPar/taskIntents/12-no-capture-in-begin.chpl:649: warning: Potential unsafe (use after free) use of variable u64 here. Please make sure the variable use is properly synced.
+$CHPL_HOMEtest/parallel/taskPar/taskIntents/12-no-capture-in-begin.chpl:648: warning: Potential unsafe (use after free) use of variable u32 here. Please make sure the variable use is properly synced.
+$CHPL_HOMEtest/parallel/taskPar/taskIntents/12-no-capture-in-begin.chpl:647: warning: Potential unsafe (use after free) use of variable u16 here. Please make sure the variable use is properly synced.
+$CHPL_HOMEtest/parallel/taskPar/taskIntents/12-no-capture-in-begin.chpl:646: warning: Potential unsafe (use after free) use of variable u8 here. Please make sure the variable use is properly synced.
+$CHPL_HOMEtest/parallel/taskPar/taskIntents/12-no-capture-in-begin.chpl:645: warning: Potential unsafe (use after free) use of variable b64 here. Please make sure the variable use is properly synced.
+$CHPL_HOMEtest/parallel/taskPar/taskIntents/12-no-capture-in-begin.chpl:644: warning: Potential unsafe (use after free) use of variable b32 here. Please make sure the variable use is properly synced.
+$CHPL_HOMEtest/parallel/taskPar/taskIntents/12-no-capture-in-begin.chpl:643: warning: Potential unsafe (use after free) use of variable b16 here. Please make sure the variable use is properly synced.
+$CHPL_HOMEtest/parallel/taskPar/taskIntents/12-no-capture-in-begin.chpl:642: warning: Potential unsafe (use after free) use of variable b8 here. Please make sure the variable use is properly synced.
+$CHPL_HOMEtest/parallel/taskPar/taskIntents/12-no-capture-in-begin.chpl:641: warning: Potential unsafe (use after free) use of variable b0 here. Please make sure the variable use is properly synced.
+$CHPL_HOMEtest/parallel/taskPar/taskIntents/12-no-capture-in-begin.chpl:639: warning: Potential unsafe (use after free) use of variable arr2 here. Please make sure the variable use is properly synced.
+$CHPL_HOMEtest/parallel/taskPar/taskIntents/12-no-capture-in-begin.chpl:638: warning: Potential unsafe (use after free) use of variable arr1 here. Please make sure the variable use is properly synced.
+$CHPL_HOMEtest/parallel/taskPar/taskIntents/12-no-capture-in-begin.chpl:637: warning: Potential unsafe (use after free) use of variable dom2 here. Please make sure the variable use is properly synced.
+$CHPL_HOMEtest/parallel/taskPar/taskIntents/12-no-capture-in-begin.chpl:636: warning: Potential unsafe (use after free) use of variable dom1 here. Please make sure the variable use is properly synced.
+$CHPL_HOMEtest/parallel/taskPar/taskIntents/12-no-capture-in-begin.chpl:634: warning: Potential unsafe (use after free) use of variable cls here. Please make sure the variable use is properly synced.
+$CHPL_HOMEtest/parallel/taskPar/taskIntents/12-no-capture-in-begin.chpl:631: warning: Potential unsafe (use after free) use of variable enm here. Please make sure the variable use is properly synced.
+$CHPL_HOMEtest/parallel/taskPar/taskIntents/12-no-capture-in-begin.chpl:629: warning: Potential unsafe (use after free) use of variable z128 here. Please make sure the variable use is properly synced.
+$CHPL_HOMEtest/parallel/taskPar/taskIntents/12-no-capture-in-begin.chpl:628: warning: Potential unsafe (use after free) use of variable z64 here. Please make sure the variable use is properly synced.
+$CHPL_HOMEtest/parallel/taskPar/taskIntents/12-no-capture-in-begin.chpl:627: warning: Potential unsafe (use after free) use of variable m64 here. Please make sure the variable use is properly synced.
+$CHPL_HOMEtest/parallel/taskPar/taskIntents/12-no-capture-in-begin.chpl:626: warning: Potential unsafe (use after free) use of variable m32 here. Please make sure the variable use is properly synced.
+$CHPL_HOMEtest/parallel/taskPar/taskIntents/12-no-capture-in-begin.chpl:625: warning: Potential unsafe (use after free) use of variable r64 here. Please make sure the variable use is properly synced.
+$CHPL_HOMEtest/parallel/taskPar/taskIntents/12-no-capture-in-begin.chpl:624: warning: Potential unsafe (use after free) use of variable r32 here. Please make sure the variable use is properly synced.
+$CHPL_HOMEtest/parallel/taskPar/taskIntents/12-no-capture-in-begin.chpl:623: warning: Potential unsafe (use after free) use of variable i64 here. Please make sure the variable use is properly synced.
+$CHPL_HOMEtest/parallel/taskPar/taskIntents/12-no-capture-in-begin.chpl:622: warning: Potential unsafe (use after free) use of variable i32 here. Please make sure the variable use is properly synced.
+$CHPL_HOMEtest/parallel/taskPar/taskIntents/12-no-capture-in-begin.chpl:621: warning: Potential unsafe (use after free) use of variable i16 here. Please make sure the variable use is properly synced.
+$CHPL_HOMEtest/parallel/taskPar/taskIntents/12-no-capture-in-begin.chpl:620: warning: Potential unsafe (use after free) use of variable i8 here. Please make sure the variable use is properly synced.
+$CHPL_HOMEtest/parallel/taskPar/taskIntents/12-no-capture-in-begin.chpl:619: warning: Potential unsafe (use after free) use of variable u64 here. Please make sure the variable use is properly synced.
+$CHPL_HOMEtest/parallel/taskPar/taskIntents/12-no-capture-in-begin.chpl:618: warning: Potential unsafe (use after free) use of variable u32 here. Please make sure the variable use is properly synced.
+$CHPL_HOMEtest/parallel/taskPar/taskIntents/12-no-capture-in-begin.chpl:617: warning: Potential unsafe (use after free) use of variable u16 here. Please make sure the variable use is properly synced.
+$CHPL_HOMEtest/parallel/taskPar/taskIntents/12-no-capture-in-begin.chpl:616: warning: Potential unsafe (use after free) use of variable u8 here. Please make sure the variable use is properly synced.
+$CHPL_HOMEtest/parallel/taskPar/taskIntents/12-no-capture-in-begin.chpl:615: warning: Potential unsafe (use after free) use of variable b64 here. Please make sure the variable use is properly synced.
+$CHPL_HOMEtest/parallel/taskPar/taskIntents/12-no-capture-in-begin.chpl:614: warning: Potential unsafe (use after free) use of variable b32 here. Please make sure the variable use is properly synced.
+$CHPL_HOMEtest/parallel/taskPar/taskIntents/12-no-capture-in-begin.chpl:613: warning: Potential unsafe (use after free) use of variable b16 here. Please make sure the variable use is properly synced.
+$CHPL_HOMEtest/parallel/taskPar/taskIntents/12-no-capture-in-begin.chpl:612: warning: Potential unsafe (use after free) use of variable b8 here. Please make sure the variable use is properly synced.
+$CHPL_HOMEtest/parallel/taskPar/taskIntents/12-no-capture-in-begin.chpl:611: warning: Potential unsafe (use after free) use of variable b0 here. Please make sure the variable use is properly synced.
+$CHPL_HOMEtest/parallel/taskPar/taskIntents/12-no-capture-in-begin.chpl:835: warning: Potential unsafe (use after free) use of variable dom1 here. Please make sure the variable use is properly synced.
+$CHPL_HOMEtest/parallel/taskPar/taskIntents/12-no-capture-in-begin.chpl:791: warning: Potential unsafe (use after free) use of variable i32 here. Please make sure the variable use is properly synced.
+$CHPL_HOMEtest/parallel/taskPar/taskIntents/12-no-capture-in-begin.chpl:827: warning: Potential unsafe (use after free) use of variable z64 here. Please make sure the variable use is properly synced.
+$CHPL_HOMEtest/parallel/taskPar/taskIntents/12-no-capture-in-begin.chpl:830: warning: Potential unsafe (use after free) use of variable enm here. Please make sure the variable use is properly synced.
+$CHPL_HOMEtest/parallel/taskPar/taskIntents/12-no-capture-in-begin.chpl:822: warning: Potential unsafe (use after free) use of variable i64 here. Please make sure the variable use is properly synced.
+$CHPL_HOMEtest/parallel/taskPar/taskIntents/12-no-capture-in-begin.chpl:820: warning: Potential unsafe (use after free) use of variable i16 here. Please make sure the variable use is properly synced.
+$CHPL_HOMEtest/parallel/taskPar/taskIntents/12-no-capture-in-begin.chpl:789: warning: Potential unsafe (use after free) use of variable i8 here. Please make sure the variable use is properly synced.
+$CHPL_HOMEtest/parallel/taskPar/taskIntents/12-no-capture-in-begin.chpl:790: warning: Potential unsafe (use after free) use of variable i16 here. Please make sure the variable use is properly synced.
+$CHPL_HOMEtest/parallel/taskPar/taskIntents/12-no-capture-in-begin.chpl:811: warning: Potential unsafe (use after free) use of variable b8 here. Please make sure the variable use is properly synced.
+$CHPL_HOMEtest/parallel/taskPar/taskIntents/12-no-capture-in-begin.chpl:815: warning: Potential unsafe (use after free) use of variable u8 here. Please make sure the variable use is properly synced.
+$CHPL_HOMEtest/parallel/taskPar/taskIntents/12-no-capture-in-begin.chpl:808: warning: Potential unsafe (use after free) use of variable arr2 here. Please make sure the variable use is properly synced.
+$CHPL_HOMEtest/parallel/taskPar/taskIntents/12-no-capture-in-begin.chpl:833: warning: Potential unsafe (use after free) use of variable cls here. Please make sure the variable use is properly synced.
+$CHPL_HOMEtest/parallel/taskPar/taskIntents/12-no-capture-in-begin.chpl:818: warning: Potential unsafe (use after free) use of variable u64 here. Please make sure the variable use is properly synced.
+$CHPL_HOMEtest/parallel/taskPar/taskIntents/12-no-capture-in-begin.chpl:826: warning: Potential unsafe (use after free) use of variable m64 here. Please make sure the variable use is properly synced.
+$CHPL_HOMEtest/parallel/taskPar/taskIntents/12-no-capture-in-begin.chpl:812: warning: Potential unsafe (use after free) use of variable b16 here. Please make sure the variable use is properly synced.
+$CHPL_HOMEtest/parallel/taskPar/taskIntents/12-no-capture-in-begin.chpl:814: warning: Potential unsafe (use after free) use of variable b64 here. Please make sure the variable use is properly synced.
+$CHPL_HOMEtest/parallel/taskPar/taskIntents/12-no-capture-in-begin.chpl:819: warning: Potential unsafe (use after free) use of variable i8 here. Please make sure the variable use is properly synced.
+$CHPL_HOMEtest/parallel/taskPar/taskIntents/12-no-capture-in-begin.chpl:788: warning: Potential unsafe (use after free) use of variable u64 here. Please make sure the variable use is properly synced.
+$CHPL_HOMEtest/parallel/taskPar/taskIntents/12-no-capture-in-begin.chpl:781: warning: Potential unsafe (use after free) use of variable b8 here. Please make sure the variable use is properly synced.
+$CHPL_HOMEtest/parallel/taskPar/taskIntents/12-no-capture-in-begin.chpl:821: warning: Potential unsafe (use after free) use of variable i32 here. Please make sure the variable use is properly synced.
+$CHPL_HOMEtest/parallel/taskPar/taskIntents/12-no-capture-in-begin.chpl:786: warning: Potential unsafe (use after free) use of variable u16 here. Please make sure the variable use is properly synced.
+$CHPL_HOMEtest/parallel/taskPar/taskIntents/12-no-capture-in-begin.chpl:784: warning: Potential unsafe (use after free) use of variable b64 here. Please make sure the variable use is properly synced.
+$CHPL_HOMEtest/parallel/taskPar/taskIntents/12-no-capture-in-begin.chpl:828: warning: Potential unsafe (use after free) use of variable z128 here. Please make sure the variable use is properly synced.
+$CHPL_HOMEtest/parallel/taskPar/taskIntents/12-no-capture-in-begin.chpl:838: warning: Potential unsafe (use after free) use of variable arr2 here. Please make sure the variable use is properly synced.
+$CHPL_HOMEtest/parallel/taskPar/taskIntents/12-no-capture-in-begin.chpl:837: warning: Potential unsafe (use after free) use of variable arr1 here. Please make sure the variable use is properly synced.
+$CHPL_HOMEtest/parallel/taskPar/taskIntents/12-no-capture-in-begin.chpl:841: warning: Potential unsafe (use after free) use of variable s$ here. Please make sure the variable use is properly synced.
+$CHPL_HOMEtest/parallel/taskPar/taskIntents/12-no-capture-in-begin.chpl:836: warning: Potential unsafe (use after free) use of variable dom2 here. Please make sure the variable use is properly synced.
+$CHPL_HOMEtest/parallel/taskPar/taskIntents/12-no-capture-in-begin.chpl:835: warning: Potential unsafe (use after free) use of variable dom1 here. Please make sure the variable use is properly synced.
+$CHPL_HOMEtest/parallel/taskPar/taskIntents/12-no-capture-in-begin.chpl:780: warning: Potential unsafe (use after free) use of variable b0 here. Please make sure the variable use is properly synced.
+$CHPL_HOMEtest/parallel/taskPar/taskIntents/12-no-capture-in-begin.chpl:787: warning: Potential unsafe (use after free) use of variable u32 here. Please make sure the variable use is properly synced.
+$CHPL_HOMEtest/parallel/taskPar/taskIntents/12-no-capture-in-begin.chpl:792: warning: Potential unsafe (use after free) use of variable i64 here. Please make sure the variable use is properly synced.
+$CHPL_HOMEtest/parallel/taskPar/taskIntents/12-no-capture-in-begin.chpl:823: warning: Potential unsafe (use after free) use of variable r32 here. Please make sure the variable use is properly synced.
+$CHPL_HOMEtest/parallel/taskPar/taskIntents/12-no-capture-in-begin.chpl:783: warning: Potential unsafe (use after free) use of variable b32 here. Please make sure the variable use is properly synced.
+$CHPL_HOMEtest/parallel/taskPar/taskIntents/12-no-capture-in-begin.chpl:825: warning: Potential unsafe (use after free) use of variable m32 here. Please make sure the variable use is properly synced.
+$CHPL_HOMEtest/parallel/taskPar/taskIntents/12-no-capture-in-begin.chpl:813: warning: Potential unsafe (use after free) use of variable b32 here. Please make sure the variable use is properly synced.
+$CHPL_HOMEtest/parallel/taskPar/taskIntents/12-no-capture-in-begin.chpl:824: warning: Potential unsafe (use after free) use of variable r64 here. Please make sure the variable use is properly synced.
+$CHPL_HOMEtest/parallel/taskPar/taskIntents/12-no-capture-in-begin.chpl:785: warning: Potential unsafe (use after free) use of variable u8 here. Please make sure the variable use is properly synced.
+$CHPL_HOMEtest/parallel/taskPar/taskIntents/12-no-capture-in-begin.chpl:807: warning: Potential unsafe (use after free) use of variable arr1 here. Please make sure the variable use is properly synced.
+$CHPL_HOMEtest/parallel/taskPar/taskIntents/12-no-capture-in-begin.chpl:810: warning: Potential unsafe (use after free) use of variable b0 here. Please make sure the variable use is properly synced.
+$CHPL_HOMEtest/parallel/taskPar/taskIntents/12-no-capture-in-begin.chpl:817: warning: Potential unsafe (use after free) use of variable u32 here. Please make sure the variable use is properly synced.
+$CHPL_HOMEtest/parallel/taskPar/taskIntents/12-no-capture-in-begin.chpl:791: warning: Potential unsafe (use after free) use of variable i32 here. Please make sure the variable use is properly synced.
+$CHPL_HOMEtest/parallel/taskPar/taskIntents/12-no-capture-in-begin.chpl:782: warning: Potential unsafe (use after free) use of variable b16 here. Please make sure the variable use is properly synced.
+$CHPL_HOMEtest/parallel/taskPar/taskIntents/12-no-capture-in-begin.chpl:816: warning: Potential unsafe (use after free) use of variable u16 here. Please make sure the variable use is properly synced.
+$CHPL_HOMEtest/parallel/taskPar/taskIntents/12-no-capture-in-begin.chpl:805: warning: Potential unsafe (use after free) use of variable dom1 here. Please make sure the variable use is properly synced.
+$CHPL_HOMEtest/parallel/taskPar/taskIntents/12-no-capture-in-begin.chpl:803: warning: Potential unsafe (use after free) use of variable cls here. Please make sure the variable use is properly synced.
+$CHPL_HOMEtest/parallel/taskPar/taskIntents/12-no-capture-in-begin.chpl:800: warning: Potential unsafe (use after free) use of variable enm here. Please make sure the variable use is properly synced.
+$CHPL_HOMEtest/parallel/taskPar/taskIntents/12-no-capture-in-begin.chpl:798: warning: Potential unsafe (use after free) use of variable z128 here. Please make sure the variable use is properly synced.
+$CHPL_HOMEtest/parallel/taskPar/taskIntents/12-no-capture-in-begin.chpl:797: warning: Potential unsafe (use after free) use of variable z64 here. Please make sure the variable use is properly synced.
+$CHPL_HOMEtest/parallel/taskPar/taskIntents/12-no-capture-in-begin.chpl:795: warning: Potential unsafe (use after free) use of variable m32 here. Please make sure the variable use is properly synced.
+$CHPL_HOMEtest/parallel/taskPar/taskIntents/12-no-capture-in-begin.chpl:794: warning: Potential unsafe (use after free) use of variable r64 here. Please make sure the variable use is properly synced.
+$CHPL_HOMEtest/parallel/taskPar/taskIntents/12-no-capture-in-begin.chpl:793: warning: Potential unsafe (use after free) use of variable r32 here. Please make sure the variable use is properly synced.
+$CHPL_HOMEtest/parallel/taskPar/taskIntents/12-no-capture-in-begin.chpl:796: warning: Potential unsafe (use after free) use of variable m64 here. Please make sure the variable use is properly synced.
+$CHPL_HOMEtest/parallel/taskPar/taskIntents/12-no-capture-in-begin.chpl:806: warning: Potential unsafe (use after free) use of variable dom2 here. Please make sure the variable use is properly synced.
+
+real	0m12.311s
+user	0m12.060s
+sys	0m0.188s
+/home/jkrishnavs/chapel/chapel/test/parallel/taskPar/taskIntents/22-no-capture-in-cobegin.chpl
+$CHPL_HOMEtest/parallel/taskPar/taskIntents/22-no-capture-in-cobegin.chpl:444: warning: Potential unsafe (use after free) use of variable b0 here. Please make sure the variable use is properly synced.
+$CHPL_HOMEtest/parallel/taskPar/taskIntents/22-no-capture-in-cobegin.chpl:445: warning: Potential unsafe (use after free) use of variable b8 here. Please make sure the variable use is properly synced.
+$CHPL_HOMEtest/parallel/taskPar/taskIntents/22-no-capture-in-cobegin.chpl:446: warning: Potential unsafe (use after free) use of variable b16 here. Please make sure the variable use is properly synced.
+$CHPL_HOMEtest/parallel/taskPar/taskIntents/22-no-capture-in-cobegin.chpl:447: warning: Potential unsafe (use after free) use of variable b32 here. Please make sure the variable use is properly synced.
+$CHPL_HOMEtest/parallel/taskPar/taskIntents/22-no-capture-in-cobegin.chpl:448: warning: Potential unsafe (use after free) use of variable b64 here. Please make sure the variable use is properly synced.
+$CHPL_HOMEtest/parallel/taskPar/taskIntents/22-no-capture-in-cobegin.chpl:449: warning: Potential unsafe (use after free) use of variable u8 here. Please make sure the variable use is properly synced.
+$CHPL_HOMEtest/parallel/taskPar/taskIntents/22-no-capture-in-cobegin.chpl:450: warning: Potential unsafe (use after free) use of variable u16 here. Please make sure the variable use is properly synced.
+$CHPL_HOMEtest/parallel/taskPar/taskIntents/22-no-capture-in-cobegin.chpl:451: warning: Potential unsafe (use after free) use of variable u32 here. Please make sure the variable use is properly synced.
+$CHPL_HOMEtest/parallel/taskPar/taskIntents/22-no-capture-in-cobegin.chpl:452: warning: Potential unsafe (use after free) use of variable u64 here. Please make sure the variable use is properly synced.
+$CHPL_HOMEtest/parallel/taskPar/taskIntents/22-no-capture-in-cobegin.chpl:453: warning: Potential unsafe (use after free) use of variable i8 here. Please make sure the variable use is properly synced.
+$CHPL_HOMEtest/parallel/taskPar/taskIntents/22-no-capture-in-cobegin.chpl:454: warning: Potential unsafe (use after free) use of variable i16 here. Please make sure the variable use is properly synced.
+$CHPL_HOMEtest/parallel/taskPar/taskIntents/22-no-capture-in-cobegin.chpl:455: warning: Potential unsafe (use after free) use of variable i32 here. Please make sure the variable use is properly synced.
+$CHPL_HOMEtest/parallel/taskPar/taskIntents/22-no-capture-in-cobegin.chpl:456: warning: Potential unsafe (use after free) use of variable i64 here. Please make sure the variable use is properly synced.
+$CHPL_HOMEtest/parallel/taskPar/taskIntents/22-no-capture-in-cobegin.chpl:457: warning: Potential unsafe (use after free) use of variable r32 here. Please make sure the variable use is properly synced.
+$CHPL_HOMEtest/parallel/taskPar/taskIntents/22-no-capture-in-cobegin.chpl:458: warning: Potential unsafe (use after free) use of variable r64 here. Please make sure the variable use is properly synced.
+$CHPL_HOMEtest/parallel/taskPar/taskIntents/22-no-capture-in-cobegin.chpl:459: warning: Potential unsafe (use after free) use of variable m32 here. Please make sure the variable use is properly synced.
+$CHPL_HOMEtest/parallel/taskPar/taskIntents/22-no-capture-in-cobegin.chpl:460: warning: Potential unsafe (use after free) use of variable m64 here. Please make sure the variable use is properly synced.
+$CHPL_HOMEtest/parallel/taskPar/taskIntents/22-no-capture-in-cobegin.chpl:461: warning: Potential unsafe (use after free) use of variable z64 here. Please make sure the variable use is properly synced.
+$CHPL_HOMEtest/parallel/taskPar/taskIntents/22-no-capture-in-cobegin.chpl:462: warning: Potential unsafe (use after free) use of variable z128 here. Please make sure the variable use is properly synced.
+$CHPL_HOMEtest/parallel/taskPar/taskIntents/22-no-capture-in-cobegin.chpl:464: warning: Potential unsafe (use after free) use of variable enm here. Please make sure the variable use is properly synced.
+$CHPL_HOMEtest/parallel/taskPar/taskIntents/22-no-capture-in-cobegin.chpl:467: warning: Potential unsafe (use after free) use of variable cls here. Please make sure the variable use is properly synced.
+$CHPL_HOMEtest/parallel/taskPar/taskIntents/22-no-capture-in-cobegin.chpl:469: warning: Potential unsafe (use after free) use of variable dom1 here. Please make sure the variable use is properly synced.
+$CHPL_HOMEtest/parallel/taskPar/taskIntents/22-no-capture-in-cobegin.chpl:470: warning: Potential unsafe (use after free) use of variable dom2 here. Please make sure the variable use is properly synced.
+$CHPL_HOMEtest/parallel/taskPar/taskIntents/22-no-capture-in-cobegin.chpl:471: warning: Potential unsafe (use after free) use of variable arr1 here. Please make sure the variable use is properly synced.
+$CHPL_HOMEtest/parallel/taskPar/taskIntents/22-no-capture-in-cobegin.chpl:472: warning: Potential unsafe (use after free) use of variable arr2 here. Please make sure the variable use is properly synced.
+$CHPL_HOMEtest/parallel/taskPar/taskIntents/22-no-capture-in-cobegin.chpl:474: warning: Potential unsafe (use after free) use of variable b0 here. Please make sure the variable use is properly synced.
+$CHPL_HOMEtest/parallel/taskPar/taskIntents/22-no-capture-in-cobegin.chpl:475: warning: Potential unsafe (use after free) use of variable b8 here. Please make sure the variable use is properly synced.
+$CHPL_HOMEtest/parallel/taskPar/taskIntents/22-no-capture-in-cobegin.chpl:476: warning: Potential unsafe (use after free) use of variable b16 here. Please make sure the variable use is properly synced.
+$CHPL_HOMEtest/parallel/taskPar/taskIntents/22-no-capture-in-cobegin.chpl:477: warning: Potential unsafe (use after free) use of variable b32 here. Please make sure the variable use is properly synced.
+$CHPL_HOMEtest/parallel/taskPar/taskIntents/22-no-capture-in-cobegin.chpl:478: warning: Potential unsafe (use after free) use of variable b64 here. Please make sure the variable use is properly synced.
+$CHPL_HOMEtest/parallel/taskPar/taskIntents/22-no-capture-in-cobegin.chpl:479: warning: Potential unsafe (use after free) use of variable u8 here. Please make sure the variable use is properly synced.
+$CHPL_HOMEtest/parallel/taskPar/taskIntents/22-no-capture-in-cobegin.chpl:480: warning: Potential unsafe (use after free) use of variable u16 here. Please make sure the variable use is properly synced.
+$CHPL_HOMEtest/parallel/taskPar/taskIntents/22-no-capture-in-cobegin.chpl:481: warning: Potential unsafe (use after free) use of variable u32 here. Please make sure the variable use is properly synced.
+$CHPL_HOMEtest/parallel/taskPar/taskIntents/22-no-capture-in-cobegin.chpl:482: warning: Potential unsafe (use after free) use of variable u64 here. Please make sure the variable use is properly synced.
+$CHPL_HOMEtest/parallel/taskPar/taskIntents/22-no-capture-in-cobegin.chpl:483: warning: Potential unsafe (use after free) use of variable i8 here. Please make sure the variable use is properly synced.
+$CHPL_HOMEtest/parallel/taskPar/taskIntents/22-no-capture-in-cobegin.chpl:484: warning: Potential unsafe (use after free) use of variable i16 here. Please make sure the variable use is properly synced.
+$CHPL_HOMEtest/parallel/taskPar/taskIntents/22-no-capture-in-cobegin.chpl:485: warning: Potential unsafe (use after free) use of variable i32 here. Please make sure the variable use is properly synced.
+$CHPL_HOMEtest/parallel/taskPar/taskIntents/22-no-capture-in-cobegin.chpl:486: warning: Potential unsafe (use after free) use of variable i64 here. Please make sure the variable use is properly synced.
+$CHPL_HOMEtest/parallel/taskPar/taskIntents/22-no-capture-in-cobegin.chpl:487: warning: Potential unsafe (use after free) use of variable r32 here. Please make sure the variable use is properly synced.
+$CHPL_HOMEtest/parallel/taskPar/taskIntents/22-no-capture-in-cobegin.chpl:488: warning: Potential unsafe (use after free) use of variable r64 here. Please make sure the variable use is properly synced.
+$CHPL_HOMEtest/parallel/taskPar/taskIntents/22-no-capture-in-cobegin.chpl:489: warning: Potential unsafe (use after free) use of variable m32 here. Please make sure the variable use is properly synced.
+$CHPL_HOMEtest/parallel/taskPar/taskIntents/22-no-capture-in-cobegin.chpl:490: warning: Potential unsafe (use after free) use of variable m64 here. Please make sure the variable use is properly synced.
+$CHPL_HOMEtest/parallel/taskPar/taskIntents/22-no-capture-in-cobegin.chpl:491: warning: Potential unsafe (use after free) use of variable z64 here. Please make sure the variable use is properly synced.
+$CHPL_HOMEtest/parallel/taskPar/taskIntents/22-no-capture-in-cobegin.chpl:492: warning: Potential unsafe (use after free) use of variable z128 here. Please make sure the variable use is properly synced.
+$CHPL_HOMEtest/parallel/taskPar/taskIntents/22-no-capture-in-cobegin.chpl:494: warning: Potential unsafe (use after free) use of variable enm here. Please make sure the variable use is properly synced.
+$CHPL_HOMEtest/parallel/taskPar/taskIntents/22-no-capture-in-cobegin.chpl:497: warning: Potential unsafe (use after free) use of variable cls here. Please make sure the variable use is properly synced.
+$CHPL_HOMEtest/parallel/taskPar/taskIntents/22-no-capture-in-cobegin.chpl:499: warning: Potential unsafe (use after free) use of variable dom1 here. Please make sure the variable use is properly synced.
+$CHPL_HOMEtest/parallel/taskPar/taskIntents/22-no-capture-in-cobegin.chpl:500: warning: Potential unsafe (use after free) use of variable dom2 here. Please make sure the variable use is properly synced.
+$CHPL_HOMEtest/parallel/taskPar/taskIntents/22-no-capture-in-cobegin.chpl:501: warning: Potential unsafe (use after free) use of variable arr1 here. Please make sure the variable use is properly synced.
+$CHPL_HOMEtest/parallel/taskPar/taskIntents/22-no-capture-in-cobegin.chpl:502: warning: Potential unsafe (use after free) use of variable arr2 here. Please make sure the variable use is properly synced.
+$CHPL_HOMEtest/parallel/taskPar/taskIntents/22-no-capture-in-cobegin.chpl:502: warning: Potential unsafe (use after free) use of variable arr2 here. Please make sure the variable use is properly synced.
+$CHPL_HOMEtest/parallel/taskPar/taskIntents/22-no-capture-in-cobegin.chpl:501: warning: Potential unsafe (use after free) use of variable arr1 here. Please make sure the variable use is properly synced.
+$CHPL_HOMEtest/parallel/taskPar/taskIntents/22-no-capture-in-cobegin.chpl:500: warning: Potential unsafe (use after free) use of variable dom2 here. Please make sure the variable use is properly synced.
+$CHPL_HOMEtest/parallel/taskPar/taskIntents/22-no-capture-in-cobegin.chpl:499: warning: Potential unsafe (use after free) use of variable dom1 here. Please make sure the variable use is properly synced.
+$CHPL_HOMEtest/parallel/taskPar/taskIntents/22-no-capture-in-cobegin.chpl:497: warning: Potential unsafe (use after free) use of variable cls here. Please make sure the variable use is properly synced.
+$CHPL_HOMEtest/parallel/taskPar/taskIntents/22-no-capture-in-cobegin.chpl:494: warning: Potential unsafe (use after free) use of variable enm here. Please make sure the variable use is properly synced.
+$CHPL_HOMEtest/parallel/taskPar/taskIntents/22-no-capture-in-cobegin.chpl:492: warning: Potential unsafe (use after free) use of variable z128 here. Please make sure the variable use is properly synced.
+$CHPL_HOMEtest/parallel/taskPar/taskIntents/22-no-capture-in-cobegin.chpl:491: warning: Potential unsafe (use after free) use of variable z64 here. Please make sure the variable use is properly synced.
+$CHPL_HOMEtest/parallel/taskPar/taskIntents/22-no-capture-in-cobegin.chpl:490: warning: Potential unsafe (use after free) use of variable m64 here. Please make sure the variable use is properly synced.
+$CHPL_HOMEtest/parallel/taskPar/taskIntents/22-no-capture-in-cobegin.chpl:489: warning: Potential unsafe (use after free) use of variable m32 here. Please make sure the variable use is properly synced.
+$CHPL_HOMEtest/parallel/taskPar/taskIntents/22-no-capture-in-cobegin.chpl:488: warning: Potential unsafe (use after free) use of variable r64 here. Please make sure the variable use is properly synced.
+$CHPL_HOMEtest/parallel/taskPar/taskIntents/22-no-capture-in-cobegin.chpl:487: warning: Potential unsafe (use after free) use of variable r32 here. Please make sure the variable use is properly synced.
+$CHPL_HOMEtest/parallel/taskPar/taskIntents/22-no-capture-in-cobegin.chpl:486: warning: Potential unsafe (use after free) use of variable i64 here. Please make sure the variable use is properly synced.
+$CHPL_HOMEtest/parallel/taskPar/taskIntents/22-no-capture-in-cobegin.chpl:485: warning: Potential unsafe (use after free) use of variable i32 here. Please make sure the variable use is properly synced.
+$CHPL_HOMEtest/parallel/taskPar/taskIntents/22-no-capture-in-cobegin.chpl:484: warning: Potential unsafe (use after free) use of variable i16 here. Please make sure the variable use is properly synced.
+$CHPL_HOMEtest/parallel/taskPar/taskIntents/22-no-capture-in-cobegin.chpl:483: warning: Potential unsafe (use after free) use of variable i8 here. Please make sure the variable use is properly synced.
+$CHPL_HOMEtest/parallel/taskPar/taskIntents/22-no-capture-in-cobegin.chpl:482: warning: Potential unsafe (use after free) use of variable u64 here. Please make sure the variable use is properly synced.
+$CHPL_HOMEtest/parallel/taskPar/taskIntents/22-no-capture-in-cobegin.chpl:481: warning: Potential unsafe (use after free) use of variable u32 here. Please make sure the variable use is properly synced.
+$CHPL_HOMEtest/parallel/taskPar/taskIntents/22-no-capture-in-cobegin.chpl:480: warning: Potential unsafe (use after free) use of variable u16 here. Please make sure the variable use is properly synced.
+$CHPL_HOMEtest/parallel/taskPar/taskIntents/22-no-capture-in-cobegin.chpl:479: warning: Potential unsafe (use after free) use of variable u8 here. Please make sure the variable use is properly synced.
+$CHPL_HOMEtest/parallel/taskPar/taskIntents/22-no-capture-in-cobegin.chpl:478: warning: Potential unsafe (use after free) use of variable b64 here. Please make sure the variable use is properly synced.
+$CHPL_HOMEtest/parallel/taskPar/taskIntents/22-no-capture-in-cobegin.chpl:477: warning: Potential unsafe (use after free) use of variable b32 here. Please make sure the variable use is properly synced.
+$CHPL_HOMEtest/parallel/taskPar/taskIntents/22-no-capture-in-cobegin.chpl:476: warning: Potential unsafe (use after free) use of variable b16 here. Please make sure the variable use is properly synced.
+$CHPL_HOMEtest/parallel/taskPar/taskIntents/22-no-capture-in-cobegin.chpl:475: warning: Potential unsafe (use after free) use of variable b8 here. Please make sure the variable use is properly synced.
+$CHPL_HOMEtest/parallel/taskPar/taskIntents/22-no-capture-in-cobegin.chpl:474: warning: Potential unsafe (use after free) use of variable b0 here. Please make sure the variable use is properly synced.
+$CHPL_HOMEtest/parallel/taskPar/taskIntents/22-no-capture-in-cobegin.chpl:472: warning: Potential unsafe (use after free) use of variable arr2 here. Please make sure the variable use is properly synced.
+$CHPL_HOMEtest/parallel/taskPar/taskIntents/22-no-capture-in-cobegin.chpl:471: warning: Potential unsafe (use after free) use of variable arr1 here. Please make sure the variable use is properly synced.
+$CHPL_HOMEtest/parallel/taskPar/taskIntents/22-no-capture-in-cobegin.chpl:470: warning: Potential unsafe (use after free) use of variable dom2 here. Please make sure the variable use is properly synced.
+$CHPL_HOMEtest/parallel/taskPar/taskIntents/22-no-capture-in-cobegin.chpl:469: warning: Potential unsafe (use after free) use of variable dom1 here. Please make sure the variable use is properly synced.
+$CHPL_HOMEtest/parallel/taskPar/taskIntents/22-no-capture-in-cobegin.chpl:467: warning: Potential unsafe (use after free) use of variable cls here. Please make sure the variable use is properly synced.
+$CHPL_HOMEtest/parallel/taskPar/taskIntents/22-no-capture-in-cobegin.chpl:464: warning: Potential unsafe (use after free) use of variable enm here. Please make sure the variable use is properly synced.
+$CHPL_HOMEtest/parallel/taskPar/taskIntents/22-no-capture-in-cobegin.chpl:462: warning: Potential unsafe (use after free) use of variable z128 here. Please make sure the variable use is properly synced.
+$CHPL_HOMEtest/parallel/taskPar/taskIntents/22-no-capture-in-cobegin.chpl:461: warning: Potential unsafe (use after free) use of variable z64 here. Please make sure the variable use is properly synced.
+$CHPL_HOMEtest/parallel/taskPar/taskIntents/22-no-capture-in-cobegin.chpl:460: warning: Potential unsafe (use after free) use of variable m64 here. Please make sure the variable use is properly synced.
+$CHPL_HOMEtest/parallel/taskPar/taskIntents/22-no-capture-in-cobegin.chpl:459: warning: Potential unsafe (use after free) use of variable m32 here. Please make sure the variable use is properly synced.
+$CHPL_HOMEtest/parallel/taskPar/taskIntents/22-no-capture-in-cobegin.chpl:458: warning: Potential unsafe (use after free) use of variable r64 here. Please make sure the variable use is properly synced.
+$CHPL_HOMEtest/parallel/taskPar/taskIntents/22-no-capture-in-cobegin.chpl:457: warning: Potential unsafe (use after free) use of variable r32 here. Please make sure the variable use is properly synced.
+$CHPL_HOMEtest/parallel/taskPar/taskIntents/22-no-capture-in-cobegin.chpl:456: warning: Potential unsafe (use after free) use of variable i64 here. Please make sure the variable use is properly synced.
+$CHPL_HOMEtest/parallel/taskPar/taskIntents/22-no-capture-in-cobegin.chpl:455: warning: Potential unsafe (use after free) use of variable i32 here. Please make sure the variable use is properly synced.
+$CHPL_HOMEtest/parallel/taskPar/taskIntents/22-no-capture-in-cobegin.chpl:454: warning: Potential unsafe (use after free) use of variable i16 here. Please make sure the variable use is properly synced.
+$CHPL_HOMEtest/parallel/taskPar/taskIntents/22-no-capture-in-cobegin.chpl:453: warning: Potential unsafe (use after free) use of variable i8 here. Please make sure the variable use is properly synced.
+$CHPL_HOMEtest/parallel/taskPar/taskIntents/22-no-capture-in-cobegin.chpl:452: warning: Potential unsafe (use after free) use of variable u64 here. Please make sure the variable use is properly synced.
+$CHPL_HOMEtest/parallel/taskPar/taskIntents/22-no-capture-in-cobegin.chpl:451: warning: Potential unsafe (use after free) use of variable u32 here. Please make sure the variable use is properly synced.
+$CHPL_HOMEtest/parallel/taskPar/taskIntents/22-no-capture-in-cobegin.chpl:450: warning: Potential unsafe (use after free) use of variable u16 here. Please make sure the variable use is properly synced.
+$CHPL_HOMEtest/parallel/taskPar/taskIntents/22-no-capture-in-cobegin.chpl:449: warning: Potential unsafe (use after free) use of variable u8 here. Please make sure the variable use is properly synced.
+$CHPL_HOMEtest/parallel/taskPar/taskIntents/22-no-capture-in-cobegin.chpl:448: warning: Potential unsafe (use after free) use of variable b64 here. Please make sure the variable use is properly synced.
+$CHPL_HOMEtest/parallel/taskPar/taskIntents/22-no-capture-in-cobegin.chpl:447: warning: Potential unsafe (use after free) use of variable b32 here. Please make sure the variable use is properly synced.
+$CHPL_HOMEtest/parallel/taskPar/taskIntents/22-no-capture-in-cobegin.chpl:446: warning: Potential unsafe (use after free) use of variable b16 here. Please make sure the variable use is properly synced.
+$CHPL_HOMEtest/parallel/taskPar/taskIntents/22-no-capture-in-cobegin.chpl:445: warning: Potential unsafe (use after free) use of variable b8 here. Please make sure the variable use is properly synced.
+$CHPL_HOMEtest/parallel/taskPar/taskIntents/22-no-capture-in-cobegin.chpl:444: warning: Potential unsafe (use after free) use of variable b0 here. Please make sure the variable use is properly synced.
+
+real	0m12.243s
+user	0m11.960s
+sys	0m0.220s
+/home/jkrishnavs/chapel/chapel/test/functions/vass/ref-intent-bug-4begin.chpl
+$CHPL_HOMEtest/functions/vass/ref-intent-bug-4begin.chpl:7: In function 'testDriver':
+$CHPL_HOMEtest/functions/vass/ref-intent-bug-4begin.chpl:13: warning: Potential unsafe (use after free) use of variable globalVar here. Please make sure the variable use is properly synced.
+$CHPL_HOMEtest/functions/vass/ref-intent-bug-4begin.chpl:7: In function 'testDriver':
+$CHPL_HOMEtest/functions/vass/ref-intent-bug-4begin.chpl:14: warning: Potential unsafe (use after free) use of variable globalArg here. Please make sure the variable use is properly synced.
+$CHPL_HOMEtest/functions/vass/ref-intent-bug-4begin.chpl:7: In function 'testDriver':
+$CHPL_HOMEtest/functions/vass/ref-intent-bug-4begin.chpl:15: warning: Potential unsafe (use after free) use of variable localVar here. Please make sure the variable use is properly synced.
+$CHPL_HOMEtest/functions/vass/ref-intent-bug-4begin.chpl:7: In function 'testDriver':
+$CHPL_HOMEtest/functions/vass/ref-intent-bug-4begin.chpl:16: warning: Potential unsafe (use after free) use of variable localArg here. Please make sure the variable use is properly synced.
+
+real	0m6.085s
+user	0m5.832s
+sys	0m0.188s
+/home/jkrishnavs/chapel/chapel/test/studies/uts/uts_deq.chpl
+$CHPL_HOMEtest/studies/uts/uts_deq.chpl:205: In function 'balance_load':
+$CHPL_HOMEtest/studies/uts/uts_deq.chpl:208: warning: Potential unsafe (use after free) use of variable q here. Please make sure the variable use is properly synced.
+In file included from /tmp/chpl-jkrishnavs-4075.deleteme/_main.c:41:0:
+/tmp/chpl-jkrishnavs-4075.deleteme/uts_deq.c: In function ‘genChildren_chpl’:
+/tmp/chpl-jkrishnavs-4075.deleteme/uts_deq.c:530:1: error: implicit declaration of function ‘rng_spawn’ [-Werror=implicit-function-declaration]
+ rng_spawn(call_tmp_chpl20, call_tmp_chpl27, ((int32_t)(i_chpl)));
+ ^
+/tmp/chpl-jkrishnavs-4075.deleteme/uts_deq.c:530:1: error: nested extern declaration of ‘rng_spawn’ [-Werror=nested-externs]
+/tmp/chpl-jkrishnavs-4075.deleteme/uts_deq.c: In function ‘numBinChildren_chpl’:
+/tmp/chpl-jkrishnavs-4075.deleteme/uts_deq.c:652:18: error: implicit declaration of function ‘rng_rand’ [-Werror=implicit-function-declaration]
+ call_tmp_chpl9 = rng_rand(call_tmp_chpl8);
+                  ^
+/tmp/chpl-jkrishnavs-4075.deleteme/uts_deq.c:652:1: error: nested extern declaration of ‘rng_rand’ [-Werror=nested-externs]
+ call_tmp_chpl9 = rng_rand(call_tmp_chpl8);
+ ^
+In file included from /tmp/chpl-jkrishnavs-4075.deleteme/_main.c:41:0:
+/tmp/chpl-jkrishnavs-4075.deleteme/uts_deq.c: In function ‘chpl_user_main’:
+/tmp/chpl-jkrishnavs-4075.deleteme/uts_deq.c:1385:1: error: implicit declaration of function ‘rng_init’ [-Werror=implicit-function-declaration]
+ rng_init(call_tmp_chpl13, ((int32_t)(local_SEED_chpl)));
+ ^
+/tmp/chpl-jkrishnavs-4075.deleteme/uts_deq.c:1385:1: error: nested extern declaration of ‘rng_init’ [-Werror=nested-externs]
+cc1: all warnings being treated as errors
+/home/jkrishnavs/chapel/chapel//runtime/etc/Makefile.exe:27: recipe for target '/tmp/chpl-jkrishnavs-4075.deleteme/a.out.tmp' failed
+make: *** [/tmp/chpl-jkrishnavs-4075.deleteme/a.out.tmp] Error 1
+error: compiling generated source
+
+real	0m8.199s
+user	0m7.980s
+sys	0m0.128s
+/home/jkrishnavs/chapel/chapel/test/studies/uts/uts_deq.chpl
+$CHPL_HOMEtest/studies/uts/uts_deq.chpl:205: In function 'balance_load':
+$CHPL_HOMEtest/studies/uts/uts_deq.chpl:208: warning: Potential unsafe (use after free) use of variable q here. Please make sure the variable use is properly synced.
+In file included from /tmp/chpl-jkrishnavs-4180.deleteme/_main.c:41:0:
+/tmp/chpl-jkrishnavs-4180.deleteme/uts_deq.c: In function ‘genChildren_chpl’:
+/tmp/chpl-jkrishnavs-4180.deleteme/uts_deq.c:530:1: error: implicit declaration of function ‘rng_spawn’ [-Werror=implicit-function-declaration]
+ rng_spawn(call_tmp_chpl20, call_tmp_chpl27, ((int32_t)(i_chpl)));
+ ^
+/tmp/chpl-jkrishnavs-4180.deleteme/uts_deq.c:530:1: error: nested extern declaration of ‘rng_spawn’ [-Werror=nested-externs]
+/tmp/chpl-jkrishnavs-4180.deleteme/uts_deq.c: In function ‘numBinChildren_chpl’:
+/tmp/chpl-jkrishnavs-4180.deleteme/uts_deq.c:652:18: error: implicit declaration of function ‘rng_rand’ [-Werror=implicit-function-declaration]
+ call_tmp_chpl9 = rng_rand(call_tmp_chpl8);
+                  ^
+/tmp/chpl-jkrishnavs-4180.deleteme/uts_deq.c:652:1: error: nested extern declaration of ‘rng_rand’ [-Werror=nested-externs]
+ call_tmp_chpl9 = rng_rand(call_tmp_chpl8);
+ ^
+In file included from /tmp/chpl-jkrishnavs-4180.deleteme/_main.c:41:0:
+/tmp/chpl-jkrishnavs-4180.deleteme/uts_deq.c: In function ‘chpl_user_main’:
+/tmp/chpl-jkrishnavs-4180.deleteme/uts_deq.c:1385:1: error: implicit declaration of function ‘rng_init’ [-Werror=implicit-function-declaration]
+ rng_init(call_tmp_chpl13, ((int32_t)(local_SEED_chpl)));
+ ^
+/tmp/chpl-jkrishnavs-4180.deleteme/uts_deq.c:1385:1: error: nested extern declaration of ‘rng_init’ [-Werror=nested-externs]
+cc1: all warnings being treated as errors
+/home/jkrishnavs/chapel/chapel//runtime/etc/Makefile.exe:27: recipe for target '/tmp/chpl-jkrishnavs-4180.deleteme/a.out.tmp' failed
+make: *** [/tmp/chpl-jkrishnavs-4180.deleteme/a.out.tmp] Error 1
+error: compiling generated source
+
+real	0m8.145s
+user	0m7.952s
+sys	0m0.136s
+/home/jkrishnavs/chapel/chapel/test/studies/cholesky/jglewis/test_dataflow_cholesky.chpl
+$CHPL_HOMEtest/studies/cholesky/jglewis/test_dataflow_cholesky.chpl:80: error: Cannot find module or enum 'cholesky_execution_config_consts'
+
+real	0m0.457s
+user	0m0.424s
+sys	0m0.016s
+/home/jkrishnavs/chapel/chapel/test/studies/cholesky/jglewis/version2/dataflow/test_dataflow_cholesky.chpl
+internal error: seg fault [misc.cpp:491]
+
+real	0m6.075s
+user	0m5.956s
+sys	0m0.080s
+/home/jkrishnavs/chapel/chapel/test/studies/madness/aniruddha/madchap/mytests/par-refine/test_refine.chpl
+$CHPL_HOMEtest/studies/madness/aniruddha/madchap/mytests/par-refine/test_refine.chpl:2: error: Cannot find module or enum 'MadAnalytics'
+
+real	0m0.379s
+user	0m0.340s
+sys	0m0.020s
+/home/jkrishnavs/chapel/chapel/test/studies/dedup/dedup-extern.chpl
+
+real	0m9.512s
+user	0m9.200s
+sys	0m0.168s
+/home/jkrishnavs/chapel/chapel/test/arrays/diten/replaceArrayAccess/modifyInAnotherTask.chpl
+$CHPL_HOMEtest/arrays/diten/replaceArrayAccess/modifyInAnotherTask.chpl:9: warning: Potential unsafe (use after free) use of variable A here. Please make sure the variable use is properly synced.
+$CHPL_HOMEtest/arrays/diten/replaceArrayAccess/modifyInAnotherTask.chpl:9: warning: Potential unsafe (use after free) use of variable A here. Please make sure the variable use is properly synced.
+
+real	0m6.943s
+user	0m6.716s
+sys	0m0.164s
+/home/jkrishnavs/chapel/chapel/test/runtime/thomasvandoren/rtLibDirWarningsWithDeveloper.chpl
+
+real	0m5.922s
+user	0m5.704s
+sys	0m0.140s
+/home/jkrishnavs/chapel/chapel/test/runtime/thomasvandoren/rtLibDirWarningsWithModule.chpl
+
+real	0m6.067s
+user	0m5.856s
+sys	0m0.132s
+/home/jkrishnavs/chapel/chapel/test/runtime/thomasvandoren/rtLibDirWarnings.chpl
+
+real	0m5.981s
+user	0m5.768s
+sys	0m0.124s
+/home/jkrishnavs/chapel/chapel/test/runtime/thomasvandoren/rtLibDirWarningsWithModuleAndDeveloper.chpl
+
+real	0m5.861s
+user	0m5.636s
+sys	0m0.160s
+/home/jkrishnavs/chapel/chapel/test/modules/bradc/printModStuff/foo.chpl
+$CHPL_HOMEtest/modules/bradc/printModStuff/foo.chpl:1: error: Cannot find module or enum 'bar'
+
+real	0m0.360s
+user	0m0.340s
+sys	0m0.012s
+/home/jkrishnavs/chapel/chapel/test/types/string/sungeun/stringInOn.chpl
+$CHPL_HOMEtest/types/string/sungeun/stringInOn.chpl:9: warning: Potential unsafe (use after free) use of variable l0 here. Please make sure the variable use is properly synced.
+$CHPL_HOMEtest/types/string/sungeun/stringInOn.chpl:10: warning: Potential unsafe (use after free) use of variable s0 here. Please make sure the variable use is properly synced.
+$CHPL_HOMEtest/types/string/sungeun/stringInOn.chpl:11: warning: Potential unsafe (use after free) use of variable l1 here. Please make sure the variable use is properly synced.
+
+real	0m6.120s
+user	0m5.868s
+sys	0m0.164s
+/home/jkrishnavs/chapel/chapel/test/types/atomic/sungeun/atomic_vars.chpl
+$CHPL_HOMEtest/types/atomic/sungeun/atomic_vars.chpl:4: In function 'doit':
+$CHPL_HOMEtest/types/atomic/sungeun/atomic_vars.chpl:63: warning: Potential unsafe (use after free) use of variable ax here. Please make sure the variable use is properly synced.
+$CHPL_HOMEtest/types/atomic/sungeun/atomic_vars.chpl:64: warning: Potential unsafe (use after free) use of variable ax here. Please make sure the variable use is properly synced.
+$CHPL_HOMEtest/types/atomic/sungeun/atomic_vars.chpl:68: warning: Potential unsafe (use after free) use of variable b here. Please make sure the variable use is properly synced.
+$CHPL_HOMEtest/types/atomic/sungeun/atomic_vars.chpl:77: warning: Potential unsafe (use after free) use of variable ax here. Please make sure the variable use is properly synced.
+$CHPL_HOMEtest/types/atomic/sungeun/atomic_vars.chpl:78: warning: Potential unsafe (use after free) use of variable ax here. Please make sure the variable use is properly synced.
+$CHPL_HOMEtest/types/atomic/sungeun/atomic_vars.chpl:82: warning: Potential unsafe (use after free) use of variable b here. Please make sure the variable use is properly synced.
+$CHPL_HOMEtest/types/atomic/sungeun/atomic_vars.chpl:93: warning: Potential unsafe (use after free) use of variable ax here. Please make sure the variable use is properly synced.
+$CHPL_HOMEtest/types/atomic/sungeun/atomic_vars.chpl:94: warning: Potential unsafe (use after free) use of variable ax here. Please make sure the variable use is properly synced.
+$CHPL_HOMEtest/types/atomic/sungeun/atomic_vars.chpl:98: warning: Potential unsafe (use after free) use of variable b here. Please make sure the variable use is properly synced.
+$CHPL_HOMEtest/types/atomic/sungeun/atomic_vars.chpl:109: warning: Potential unsafe (use after free) use of variable ax here. Please make sure the variable use is properly synced.
+$CHPL_HOMEtest/types/atomic/sungeun/atomic_vars.chpl:110: warning: Potential unsafe (use after free) use of variable ax here. Please make sure the variable use is properly synced.
+$CHPL_HOMEtest/types/atomic/sungeun/atomic_vars.chpl:114: warning: Potential unsafe (use after free) use of variable b here. Please make sure the variable use is properly synced.
+$CHPL_HOMEtest/types/atomic/sungeun/atomic_vars.chpl:125: warning: Potential unsafe (use after free) use of variable ax here. Please make sure the variable use is properly synced.
+$CHPL_HOMEtest/types/atomic/sungeun/atomic_vars.chpl:126: warning: Potential unsafe (use after free) use of variable ax here. Please make sure the variable use is properly synced.
+$CHPL_HOMEtest/types/atomic/sungeun/atomic_vars.chpl:130: warning: Potential unsafe (use after free) use of variable b here. Please make sure the variable use is properly synced.
+$CHPL_HOMEtest/types/atomic/sungeun/atomic_vars.chpl:118: warning: Potential unsafe (use after free) use of variable ax here. Please make sure the variable use is properly synced.
+$CHPL_HOMEtest/types/atomic/sungeun/atomic_vars.chpl:53: warning: Potential unsafe (use after free) use of variable ax here. Please make sure the variable use is properly synced.
+$CHPL_HOMEtest/types/atomic/sungeun/atomic_vars.chpl:52: warning: Potential unsafe (use after free) use of variable ax here. Please make sure the variable use is properly synced.
+$CHPL_HOMEtest/types/atomic/sungeun/atomic_vars.chpl:53: warning: Potential unsafe (use after free) use of variable ax here. Please make sure the variable use is properly synced.
+$CHPL_HOMEtest/types/atomic/sungeun/atomic_vars.chpl:33: warning: Potential unsafe (use after free) use of variable ax here. Please make sure the variable use is properly synced.
+$CHPL_HOMEtest/types/atomic/sungeun/atomic_vars.chpl:71: warning: Potential unsafe (use after free) use of variable ax here. Please make sure the variable use is properly synced.
+$CHPL_HOMEtest/types/atomic/sungeun/atomic_vars.chpl:43: warning: Potential unsafe (use after free) use of variable ax here. Please make sure the variable use is properly synced.
+$CHPL_HOMEtest/types/atomic/sungeun/atomic_vars.chpl:32: warning: Potential unsafe (use after free) use of variable ax here. Please make sure the variable use is properly synced.
+$CHPL_HOMEtest/types/atomic/sungeun/atomic_vars.chpl:42: warning: Potential unsafe (use after free) use of variable ax here. Please make sure the variable use is properly synced.
+$CHPL_HOMEtest/types/atomic/sungeun/atomic_vars.chpl:42: warning: Potential unsafe (use after free) use of variable ax here. Please make sure the variable use is properly synced.
+$CHPL_HOMEtest/types/atomic/sungeun/atomic_vars.chpl:85: warning: Potential unsafe (use after free) use of variable ax here. Please make sure the variable use is properly synced.
+$CHPL_HOMEtest/types/atomic/sungeun/atomic_vars.chpl:118: warning: Potential unsafe (use after free) use of variable ax here. Please make sure the variable use is properly synced.
+$CHPL_HOMEtest/types/atomic/sungeun/atomic_vars.chpl:102: warning: Potential unsafe (use after free) use of variable ax here. Please make sure the variable use is properly synced.
+$CHPL_HOMEtest/types/atomic/sungeun/atomic_vars.chpl:102: warning: Potential unsafe (use after free) use of variable ax here. Please make sure the variable use is properly synced.
+$CHPL_HOMEtest/types/atomic/sungeun/atomic_vars.chpl:71: warning: Potential unsafe (use after free) use of variable ax here. Please make sure the variable use is properly synced.
+$CHPL_HOMEtest/types/atomic/sungeun/atomic_vars.chpl:85: warning: Potential unsafe (use after free) use of variable ax here. Please make sure the variable use is properly synced.
+$CHPL_HOMEtest/types/atomic/sungeun/atomic_vars.chpl:33: warning: Potential unsafe (use after free) use of variable ax here. Please make sure the variable use is properly synced.
+$CHPL_HOMEtest/types/atomic/sungeun/atomic_vars.chpl:52: warning: Potential unsafe (use after free) use of variable ax here. Please make sure the variable use is properly synced.
+$CHPL_HOMEtest/types/atomic/sungeun/atomic_vars.chpl:43: warning: Potential unsafe (use after free) use of variable ax here. Please make sure the variable use is properly synced.
+$CHPL_HOMEtest/types/atomic/sungeun/atomic_vars.chpl:32: warning: Potential unsafe (use after free) use of variable ax here. Please make sure the variable use is properly synced.
+internal error: seg fault [misc.cpp:491]
+
+real	0m51.579s
+user	0m51.432s
+sys	0m0.140s
+/home/jkrishnavs/chapel/chapel/test/release/examples/primers/taskParallel.chpl
+
+real	0m6.228s
+user	0m6.036s
+sys	0m0.124s
+/home/jkrishnavs/chapel/chapel/test/release/examples/primers/learnChapelInYMinutes.chpl
+$CHPL_HOMEtest/release/examples/primers/learnChapelInYMinutes.chpl:949: In function 'main':
+$CHPL_HOMEtest/release/examples/primers/learnChapelInYMinutes.chpl:1165: warning: scan has been serialized (see note in $CHPL_HOME/STATUS)
+$CHPL_HOMEtest/release/examples/primers/learnChapelInYMinutes.chpl:1166: warning: scan has been serialized (see note in $CHPL_HOME/STATUS)
+internal error: seg fault [misc.cpp:491]
+
+real	0m6.720s
+user	0m6.628s
+sys	0m0.084s
+/home/jkrishnavs/chapel/chapel/test/users/shetag/fock/fock-1-begin-blc.chpl
+$CHPL_HOMEtest/users/shetag/fock/fock-1-begin-blc.chpl:148: warning: atomic keyword is ignored (not implemented)
+internal error: seg fault [misc.cpp:491]
+
+real	0m5.013s
+user	0m4.900s
+sys	0m0.104s
+/home/jkrishnavs/chapel/chapel/test/users/shetag/fock/fock-1.chpl
+$CHPL_HOMEtest/users/shetag/fock/fock-1.chpl:126: warning: atomic keyword is ignored (not implemented)
+internal error: seg fault [misc.cpp:491]
+
+real	0m4.950s
+user	0m4.864s
+sys	0m0.080s
+/home/jkrishnavs/chapel/chapel/test/users/shetag/fock/fock-2.chpl
+$CHPL_HOMEtest/users/shetag/fock/fock-2.chpl:115: warning: atomic keyword is ignored (not implemented)
+internal error: seg fault [misc.cpp:491]
+
+real	0m4.845s
+user	0m4.784s
+sys	0m0.052s
+/home/jkrishnavs/chapel/chapel/test/users/npadmana/twopt/do_smu_aos.chpl
+$CHPL_HOMEtest/users/npadmana/twopt/do_smu_aos.chpl:210: In function 'TreeAccumulate':
+$CHPL_HOMEtest/users/npadmana/twopt/do_smu_aos.chpl:220: warning: Potential unsafe (use after free) use of variable p1 here. Please make sure the variable use is properly synced.
+$CHPL_HOMEtest/users/npadmana/twopt/do_smu_aos.chpl:220: warning: Potential unsafe (use after free) use of variable p2 here. Please make sure the variable use is properly synced.
+/home/jkrishnavs/chapel/chapel//lib/linux64/gnu/arch-native/loc-flat/comm-none/tasks-qthreads/tmr-generic/unwind-none/mem-jemalloc/atomics-intrinsics/gmp/hwloc/re2/wide-struct/fs-none/libchpl.a(re2-interface.o): In function `qio_regexp_replace':
+/home/jkrishnavs/chapel/chapel/runtime/src/qio/regexp/re2/re2-interface.cc:310: undefined reference to `re2::RE2::GlobalReplace(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >*, re2::RE2 const&, re2::StringPiece const&)'
+/home/jkrishnavs/chapel/chapel/runtime/src/qio/regexp/re2/re2-interface.cc:312: undefined reference to `re2::RE2::Replace(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >*, re2::RE2 const&, re2::StringPiece const&)'
+collect2: error: ld returned 1 exit status
+/home/jkrishnavs/chapel/chapel//runtime/etc/Makefile.exe:27: recipe for target '/tmp/chpl-jkrishnavs-5285.deleteme/a.out.tmp' failed
+make: *** [/tmp/chpl-jkrishnavs-5285.deleteme/a.out.tmp] Error 1
+error: compiling generated source
+
+real	0m13.041s
+user	0m12.764s
+sys	0m0.208s
+/home/jkrishnavs/chapel/chapel/test/parallel/begin/marybeth/test_forbegin2.chpl
+$CHPL_HOMEtest/parallel/begin/marybeth/test_forbegin2.chpl:13: warning: Potential unsafe (use after free) use of variable match here. Please make sure the variable use is properly synced.
+$CHPL_HOMEtest/parallel/begin/marybeth/test_forbegin2.chpl:14: warning: Potential unsafe (use after free) use of variable a here. Please make sure the variable use is properly synced.
+$CHPL_HOMEtest/parallel/begin/marybeth/test_forbegin2.chpl:14: warning: Potential unsafe (use after free) use of variable a here. Please make sure the variable use is properly synced.
+$CHPL_HOMEtest/parallel/begin/marybeth/test_forbegin2.chpl:15: warning: Potential unsafe (use after free) use of variable b here. Please make sure the variable use is properly synced.
+$CHPL_HOMEtest/parallel/begin/marybeth/test_forbegin2.chpl:15: warning: Potential unsafe (use after free) use of variable b here. Please make sure the variable use is properly synced.
+$CHPL_HOMEtest/parallel/begin/marybeth/test_forbegin2.chpl:13: warning: Potential unsafe (use after free) use of variable match here. Please make sure the variable use is properly synced.
+$CHPL_HOMEtest/parallel/begin/marybeth/test_forbegin2.chpl:14: warning: Potential unsafe (use after free) use of variable a here. Please make sure the variable use is properly synced.
+$CHPL_HOMEtest/parallel/begin/marybeth/test_forbegin2.chpl:14: warning: Potential unsafe (use after free) use of variable a here. Please make sure the variable use is properly synced.
+$CHPL_HOMEtest/parallel/begin/marybeth/test_forbegin2.chpl:15: warning: Potential unsafe (use after free) use of variable b here. Please make sure the variable use is properly synced.
+$CHPL_HOMEtest/parallel/begin/marybeth/test_forbegin2.chpl:15: warning: Potential unsafe (use after free) use of variable b here. Please make sure the variable use is properly synced.
+
+real	0m7.187s
+user	0m6.940s
+sys	0m0.168s
+/home/jkrishnavs/chapel/chapel/test/parallel/begin/marybeth/test_forbegin3.chpl
+$CHPL_HOMEtest/parallel/begin/marybeth/test_forbegin3.chpl:14: warning: Potential unsafe (use after free) use of variable a here. Please make sure the variable use is properly synced.
+$CHPL_HOMEtest/parallel/begin/marybeth/test_forbegin3.chpl:14: warning: Potential unsafe (use after free) use of variable a here. Please make sure the variable use is properly synced.
+$CHPL_HOMEtest/parallel/begin/marybeth/test_forbegin3.chpl:15: warning: Potential unsafe (use after free) use of variable b here. Please make sure the variable use is properly synced.
+$CHPL_HOMEtest/parallel/begin/marybeth/test_forbegin3.chpl:15: warning: Potential unsafe (use after free) use of variable b here. Please make sure the variable use is properly synced.
+$CHPL_HOMEtest/parallel/begin/marybeth/test_forbegin3.chpl:14: warning: Potential unsafe (use after free) use of variable a here. Please make sure the variable use is properly synced.
+$CHPL_HOMEtest/parallel/begin/marybeth/test_forbegin3.chpl:14: warning: Potential unsafe (use after free) use of variable a here. Please make sure the variable use is properly synced.
+$CHPL_HOMEtest/parallel/begin/marybeth/test_forbegin3.chpl:15: warning: Potential unsafe (use after free) use of variable b here. Please make sure the variable use is properly synced.
+$CHPL_HOMEtest/parallel/begin/marybeth/test_forbegin3.chpl:15: warning: Potential unsafe (use after free) use of variable b here. Please make sure the variable use is properly synced.
+
+real	0m7.161s
+user	0m6.936s
+sys	0m0.160s
+/home/jkrishnavs/chapel/chapel/test/parallel/begin/marybeth/test_forbegin.chpl
+$CHPL_HOMEtest/parallel/begin/marybeth/test_forbegin.chpl:14: warning: Potential unsafe (use after free) use of variable a here. Please make sure the variable use is properly synced.
+$CHPL_HOMEtest/parallel/begin/marybeth/test_forbegin.chpl:14: warning: Potential unsafe (use after free) use of variable a here. Please make sure the variable use is properly synced.
+$CHPL_HOMEtest/parallel/begin/marybeth/test_forbegin.chpl:15: warning: Potential unsafe (use after free) use of variable b here. Please make sure the variable use is properly synced.
+$CHPL_HOMEtest/parallel/begin/marybeth/test_forbegin.chpl:15: warning: Potential unsafe (use after free) use of variable b here. Please make sure the variable use is properly synced.
+$CHPL_HOMEtest/parallel/begin/marybeth/test_forbegin.chpl:14: warning: Potential unsafe (use after free) use of variable a here. Please make sure the variable use is properly synced.
+$CHPL_HOMEtest/parallel/begin/marybeth/test_forbegin.chpl:14: warning: Potential unsafe (use after free) use of variable a here. Please make sure the variable use is properly synced.
+$CHPL_HOMEtest/parallel/begin/marybeth/test_forbegin.chpl:15: warning: Potential unsafe (use after free) use of variable b here. Please make sure the variable use is properly synced.
+$CHPL_HOMEtest/parallel/begin/marybeth/test_forbegin.chpl:15: warning: Potential unsafe (use after free) use of variable b here. Please make sure the variable use is properly synced.
+
+real	0m7.146s
+user	0m6.944s
+sys	0m0.116s
+/home/jkrishnavs/chapel/chapel/test/parallel/begin/deitz/test_begin_cobegin2.chpl
+$CHPL_HOMEtest/parallel/begin/deitz/test_begin_cobegin2.chpl:1: In function 'main':
+$CHPL_HOMEtest/parallel/begin/deitz/test_begin_cobegin2.chpl:8: warning: Potential unsafe (use after free) use of variable y here. Please make sure the variable use is properly synced.
+
+real	0m6.403s
+user	0m6.180s
+sys	0m0.136s
+/home/jkrishnavs/chapel/chapel/test/parallel/begin/deitz/test_begin_error_lineno.chpl
+$CHPL_HOMEtest/parallel/begin/deitz/test_begin_error_lineno.chpl:9: warning: Potential unsafe (use after free) use of variable x here. Please make sure the variable use is properly synced.
+$CHPL_HOMEtest/parallel/begin/deitz/test_begin_error_lineno.chpl:9: warning: Potential unsafe (use after free) use of variable x here. Please make sure the variable use is properly synced.
+
+real	0m6.110s
+user	0m5.872s
+sys	0m0.160s
+/home/jkrishnavs/chapel/chapel/test/parallel/begin/vass/this-in-begin-in-method.chpl
+$CHPL_HOMEtest/parallel/begin/vass/this-in-begin-in-method.chpl:5: In function 'modify':
+$CHPL_HOMEtest/parallel/begin/vass/this-in-begin-in-method.chpl:7: warning: Potential unsafe (use after free) use of variable this here. Please make sure the variable use is properly synced.
+
+real	0m6.082s
+user	0m5.860s
+sys	0m0.144s
+/home/jkrishnavs/chapel/chapel/test/parallel/begin/waynew/array1.chpl
+$CHPL_HOMEtest/parallel/begin/waynew/array1.chpl:18: warning: Potential unsafe (use after free) use of variable a here. Please make sure the variable use is properly synced.
+$CHPL_HOMEtest/parallel/begin/waynew/array1.chpl:18: warning: Potential unsafe (use after free) use of variable a here. Please make sure the variable use is properly synced.
+$CHPL_HOMEtest/parallel/begin/waynew/array1.chpl:18: warning: Potential unsafe (use after free) use of variable a here. Please make sure the variable use is properly synced.
+$CHPL_HOMEtest/parallel/begin/waynew/array1.chpl:18: warning: Potential unsafe (use after free) use of variable a here. Please make sure the variable use is properly synced.
+
+real	0m7.129s
+user	0m6.896s
+sys	0m0.152s
+/home/jkrishnavs/chapel/chapel/test/parallel/begin/waynew/record1.chpl
+$CHPL_HOMEtest/parallel/begin/waynew/record1.chpl:12: warning: Potential unsafe (use after free) use of variable r here. Please make sure the variable use is properly synced.
+$CHPL_HOMEtest/parallel/begin/waynew/record1.chpl:13: warning: Potential unsafe (use after free) use of variable r here. Please make sure the variable use is properly synced.
+
+real	0m6.293s
+user	0m6.108s
+sys	0m0.120s
+/home/jkrishnavs/chapel/chapel/test/parallel/begin/sungeun/initCopyWithBegin.chpl
+$CHPL_HOMEtest/parallel/begin/sungeun/initCopyWithBegin.chpl:10: In function 'chpl__initCopy':
+$CHPL_HOMEtest/parallel/begin/sungeun/initCopyWithBegin.chpl:11: warning: Potential unsafe (use after free) use of variable glob here. Please make sure the variable use is properly synced.
+
+real	0m6.183s
+user	0m5.964s
+sys	0m0.140s
+/home/jkrishnavs/chapel/chapel/test/parallel/begin/sungeun/nested_fn_begin1.chpl
+$CHPL_HOMEtest/parallel/begin/sungeun/nested_fn_begin1.chpl:4: In function 'foo':
+$CHPL_HOMEtest/parallel/begin/sungeun/nested_fn_begin1.chpl:9: warning: Potential unsafe (use after free) use of variable x here. Please make sure the variable use is properly synced.
+$CHPL_HOMEtest/parallel/begin/sungeun/nested_fn_begin1.chpl:4: In function 'foo':
+$CHPL_HOMEtest/parallel/begin/sungeun/nested_fn_begin1.chpl:10: warning: Potential unsafe (use after free) use of variable x here. Please make sure the variable use is properly synced.
+$CHPL_HOMEtest/parallel/begin/sungeun/nested_fn_begin1.chpl:4: In function 'foo':
+$CHPL_HOMEtest/parallel/begin/sungeun/nested_fn_begin1.chpl:12: warning: Potential unsafe (use after free) use of variable x here. Please make sure the variable use is properly synced.
+
+real	0m6.181s
+user	0m5.976s
+sys	0m0.128s
+/home/jkrishnavs/chapel/chapel/test/parallel/sync/diten/userLevelEndCount.chpl
+$CHPL_HOMEtest/parallel/sync/diten/userLevelEndCount.chpl:32: In function 'main':
+$CHPL_HOMEtest/parallel/sync/diten/userLevelEndCount.chpl:39: warning: Potential unsafe (use after free) use of variable a here. Please make sure the variable use is properly synced.
+$CHPL_HOMEtest/parallel/sync/diten/userLevelEndCount.chpl:39: warning: Potential unsafe (use after free) use of variable a here. Please make sure the variable use is properly synced.
+
+real	0m6.173s
+user	0m5.992s
+sys	0m0.116s
+/home/jkrishnavs/chapel/chapel/test/parallel/sync/waynew/if1.chpl
+$CHPL_HOMEtest/parallel/sync/waynew/if1.chpl:16: warning: Potential unsafe (use after free) use of variable a here. Please make sure the variable use is properly synced.
+$CHPL_HOMEtest/parallel/sync/waynew/if1.chpl:16: warning: Potential unsafe (use after free) use of variable a here. Please make sure the variable use is properly synced.
+$CHPL_HOMEtest/parallel/sync/waynew/if1.chpl:16: warning: Potential unsafe (use after free) use of variable a here. Please make sure the variable use is properly synced.
+$CHPL_HOMEtest/parallel/sync/waynew/if1.chpl:16: warning: Potential unsafe (use after free) use of variable a here. Please make sure the variable use is properly synced.
+
+real	0m7.157s
+user	0m6.940s
+sys	0m0.140s
+/home/jkrishnavs/chapel/chapel/test/parallel/taskPar/figueroa/taskParallel.chpl
+$CHPL_HOMEtest/parallel/taskPar/figueroa/taskParallel.chpl:22: warning: Potential unsafe (use after free) use of variable notThereYet here. Please make sure the variable use is properly synced.
+$CHPL_HOMEtest/parallel/taskPar/figueroa/taskParallel.chpl:22: warning: Potential unsafe (use after free) use of variable notThereYet here. Please make sure the variable use is properly synced.
+$CHPL_HOMEtest/parallel/taskPar/figueroa/taskParallel.chpl:22: warning: Potential unsafe (use after free) use of variable notThereYet here. Please make sure the variable use is properly synced.
+$CHPL_HOMEtest/parallel/taskPar/figueroa/taskParallel.chpl:34: warning: Potential unsafe (use after free) use of variable notThereYet here. Please make sure the variable use is properly synced.
+
+real	0m7.385s
+user	0m7.180s
+sys	0m0.140s
+/home/jkrishnavs/chapel/chapel/test/parallel/taskPar/taskIntents/11-capture-in-begin.chpl
+$CHPL_HOMEtest/parallel/taskPar/taskIntents/11-capture-in-begin.chpl:516: warning: Potential unsafe (use after free) use of variable arr2 here. Please make sure the variable use is properly synced.
+$CHPL_HOMEtest/parallel/taskPar/taskIntents/11-capture-in-begin.chpl:515: warning: Potential unsafe (use after free) use of variable arr1 here. Please make sure the variable use is properly synced.
+$CHPL_HOMEtest/parallel/taskPar/taskIntents/11-capture-in-begin.chpl:653: warning: Potential unsafe (use after free) use of variable arr1 here. Please make sure the variable use is properly synced.
+$CHPL_HOMEtest/parallel/taskPar/taskIntents/11-capture-in-begin.chpl:654: warning: Potential unsafe (use after free) use of variable arr2 here. Please make sure the variable use is properly synced.
+
+real	0m12.109s
+user	0m11.820s
+sys	0m0.204s
+/home/jkrishnavs/chapel/chapel/test/parallel/taskPar/taskIntents/21-capture-in-cobegin.chpl
+$CHPL_HOMEtest/parallel/taskPar/taskIntents/21-capture-in-cobegin.chpl:507: In function 'begin_fn':
+$CHPL_HOMEtest/parallel/taskPar/taskIntents/21-capture-in-cobegin.chpl:576: warning: Potential unsafe (use after free) use of variable b0 here. Please make sure the variable use is properly synced.
+$CHPL_HOMEtest/parallel/taskPar/taskIntents/21-capture-in-cobegin.chpl:507: In function 'begin_fn':
+$CHPL_HOMEtest/parallel/taskPar/taskIntents/21-capture-in-cobegin.chpl:577: warning: Potential unsafe (use after free) use of variable b8 here. Please make sure the variable use is properly synced.
+$CHPL_HOMEtest/parallel/taskPar/taskIntents/21-capture-in-cobegin.chpl:507: In function 'begin_fn':
+$CHPL_HOMEtest/parallel/taskPar/taskIntents/21-capture-in-cobegin.chpl:578: warning: Potential unsafe (use after free) use of variable b16 here. Please make sure the variable use is properly synced.
+$CHPL_HOMEtest/parallel/taskPar/taskIntents/21-capture-in-cobegin.chpl:507: In function 'begin_fn':
+$CHPL_HOMEtest/parallel/taskPar/taskIntents/21-capture-in-cobegin.chpl:579: warning: Potential unsafe (use after free) use of variable b32 here. Please make sure the variable use is properly synced.
+$CHPL_HOMEtest/parallel/taskPar/taskIntents/21-capture-in-cobegin.chpl:507: In function 'begin_fn':
+$CHPL_HOMEtest/parallel/taskPar/taskIntents/21-capture-in-cobegin.chpl:580: warning: Potential unsafe (use after free) use of variable b64 here. Please make sure the variable use is properly synced.
+$CHPL_HOMEtest/parallel/taskPar/taskIntents/21-capture-in-cobegin.chpl:507: In function 'begin_fn':
+$CHPL_HOMEtest/parallel/taskPar/taskIntents/21-capture-in-cobegin.chpl:581: warning: Potential unsafe (use after free) use of variable u8 here. Please make sure the variable use is properly synced.
+$CHPL_HOMEtest/parallel/taskPar/taskIntents/21-capture-in-cobegin.chpl:507: In function 'begin_fn':
+$CHPL_HOMEtest/parallel/taskPar/taskIntents/21-capture-in-cobegin.chpl:582: warning: Potential unsafe (use after free) use of variable u16 here. Please make sure the variable use is properly synced.
+$CHPL_HOMEtest/parallel/taskPar/taskIntents/21-capture-in-cobegin.chpl:507: In function 'begin_fn':
+$CHPL_HOMEtest/parallel/taskPar/taskIntents/21-capture-in-cobegin.chpl:583: warning: Potential unsafe (use after free) use of variable u32 here. Please make sure the variable use is properly synced.
+$CHPL_HOMEtest/parallel/taskPar/taskIntents/21-capture-in-cobegin.chpl:507: In function 'begin_fn':
+$CHPL_HOMEtest/parallel/taskPar/taskIntents/21-capture-in-cobegin.chpl:584: warning: Potential unsafe (use after free) use of variable u64 here. Please make sure the variable use is properly synced.
+$CHPL_HOMEtest/parallel/taskPar/taskIntents/21-capture-in-cobegin.chpl:507: In function 'begin_fn':
+$CHPL_HOMEtest/parallel/taskPar/taskIntents/21-capture-in-cobegin.chpl:585: warning: Potential unsafe (use after free) use of variable i8 here. Please make sure the variable use is properly synced.
+$CHPL_HOMEtest/parallel/taskPar/taskIntents/21-capture-in-cobegin.chpl:507: In function 'begin_fn':
+$CHPL_HOMEtest/parallel/taskPar/taskIntents/21-capture-in-cobegin.chpl:586: warning: Potential unsafe (use after free) use of variable i16 here. Please make sure the variable use is properly synced.
+$CHPL_HOMEtest/parallel/taskPar/taskIntents/21-capture-in-cobegin.chpl:507: In function 'begin_fn':
+$CHPL_HOMEtest/parallel/taskPar/taskIntents/21-capture-in-cobegin.chpl:587: warning: Potential unsafe (use after free) use of variable i32 here. Please make sure the variable use is properly synced.
+$CHPL_HOMEtest/parallel/taskPar/taskIntents/21-capture-in-cobegin.chpl:507: In function 'begin_fn':
+$CHPL_HOMEtest/parallel/taskPar/taskIntents/21-capture-in-cobegin.chpl:588: warning: Potential unsafe (use after free) use of variable i64 here. Please make sure the variable use is properly synced.
+$CHPL_HOMEtest/parallel/taskPar/taskIntents/21-capture-in-cobegin.chpl:507: In function 'begin_fn':
+$CHPL_HOMEtest/parallel/taskPar/taskIntents/21-capture-in-cobegin.chpl:589: warning: Potential unsafe (use after free) use of variable r32 here. Please make sure the variable use is properly synced.
+$CHPL_HOMEtest/parallel/taskPar/taskIntents/21-capture-in-cobegin.chpl:507: In function 'begin_fn':
+$CHPL_HOMEtest/parallel/taskPar/taskIntents/21-capture-in-cobegin.chpl:590: warning: Potential unsafe (use after free) use of variable r64 here. Please make sure the variable use is properly synced.
+$CHPL_HOMEtest/parallel/taskPar/taskIntents/21-capture-in-cobegin.chpl:507: In function 'begin_fn':
+$CHPL_HOMEtest/parallel/taskPar/taskIntents/21-capture-in-cobegin.chpl:591: warning: Potential unsafe (use after free) use of variable m32 here. Please make sure the variable use is properly synced.
+$CHPL_HOMEtest/parallel/taskPar/taskIntents/21-capture-in-cobegin.chpl:507: In function 'begin_fn':
+$CHPL_HOMEtest/parallel/taskPar/taskIntents/21-capture-in-cobegin.chpl:592: warning: Potential unsafe (use after free) use of variable m64 here. Please make sure the variable use is properly synced.
+$CHPL_HOMEtest/parallel/taskPar/taskIntents/21-capture-in-cobegin.chpl:507: In function 'begin_fn':
+$CHPL_HOMEtest/parallel/taskPar/taskIntents/21-capture-in-cobegin.chpl:593: warning: Potential unsafe (use after free) use of variable z64 here. Please make sure the variable use is properly synced.
+$CHPL_HOMEtest/parallel/taskPar/taskIntents/21-capture-in-cobegin.chpl:507: In function 'begin_fn':
+$CHPL_HOMEtest/parallel/taskPar/taskIntents/21-capture-in-cobegin.chpl:594: warning: Potential unsafe (use after free) use of variable z128 here. Please make sure the variable use is properly synced.
+$CHPL_HOMEtest/parallel/taskPar/taskIntents/21-capture-in-cobegin.chpl:507: In function 'begin_fn':
+$CHPL_HOMEtest/parallel/taskPar/taskIntents/21-capture-in-cobegin.chpl:596: warning: Potential unsafe (use after free) use of variable enm here. Please make sure the variable use is properly synced.
+$CHPL_HOMEtest/parallel/taskPar/taskIntents/21-capture-in-cobegin.chpl:507: In function 'begin_fn':
+$CHPL_HOMEtest/parallel/taskPar/taskIntents/21-capture-in-cobegin.chpl:599: warning: Potential unsafe (use after free) use of variable cls here. Please make sure the variable use is properly synced.
+$CHPL_HOMEtest/parallel/taskPar/taskIntents/21-capture-in-cobegin.chpl:507: In function 'begin_fn':
+$CHPL_HOMEtest/parallel/taskPar/taskIntents/21-capture-in-cobegin.chpl:601: warning: Potential unsafe (use after free) use of variable dom1 here. Please make sure the variable use is properly synced.
+$CHPL_HOMEtest/parallel/taskPar/taskIntents/21-capture-in-cobegin.chpl:507: In function 'begin_fn':
+$CHPL_HOMEtest/parallel/taskPar/taskIntents/21-capture-in-cobegin.chpl:602: warning: Potential unsafe (use after free) use of variable dom2 here. Please make sure the variable use is properly synced.
+$CHPL_HOMEtest/parallel/taskPar/taskIntents/21-capture-in-cobegin.chpl:507: In function 'begin_fn':
+$CHPL_HOMEtest/parallel/taskPar/taskIntents/21-capture-in-cobegin.chpl:603: warning: Potential unsafe (use after free) use of variable arr1 here. Please make sure the variable use is properly synced.
+$CHPL_HOMEtest/parallel/taskPar/taskIntents/21-capture-in-cobegin.chpl:507: In function 'begin_fn':
+$CHPL_HOMEtest/parallel/taskPar/taskIntents/21-capture-in-cobegin.chpl:604: warning: Potential unsafe (use after free) use of variable arr2 here. Please make sure the variable use is properly synced.
+$CHPL_HOMEtest/parallel/taskPar/taskIntents/21-capture-in-cobegin.chpl:507: In function 'begin_fn':
+$CHPL_HOMEtest/parallel/taskPar/taskIntents/21-capture-in-cobegin.chpl:606: warning: Potential unsafe (use after free) use of variable b0 here. Please make sure the variable use is properly synced.
+$CHPL_HOMEtest/parallel/taskPar/taskIntents/21-capture-in-cobegin.chpl:507: In function 'begin_fn':
+$CHPL_HOMEtest/parallel/taskPar/taskIntents/21-capture-in-cobegin.chpl:607: warning: Potential unsafe (use after free) use of variable b8 here. Please make sure the variable use is properly synced.
+$CHPL_HOMEtest/parallel/taskPar/taskIntents/21-capture-in-cobegin.chpl:507: In function 'begin_fn':
+$CHPL_HOMEtest/parallel/taskPar/taskIntents/21-capture-in-cobegin.chpl:608: warning: Potential unsafe (use after free) use of variable b16 here. Please make sure the variable use is properly synced.
+$CHPL_HOMEtest/parallel/taskPar/taskIntents/21-capture-in-cobegin.chpl:507: In function 'begin_fn':
+$CHPL_HOMEtest/parallel/taskPar/taskIntents/21-capture-in-cobegin.chpl:609: warning: Potential unsafe (use after free) use of variable b32 here. Please make sure the variable use is properly synced.
+$CHPL_HOMEtest/parallel/taskPar/taskIntents/21-capture-in-cobegin.chpl:507: In function 'begin_fn':
+$CHPL_HOMEtest/parallel/taskPar/taskIntents/21-capture-in-cobegin.chpl:610: warning: Potential unsafe (use after free) use of variable b64 here. Please make sure the variable use is properly synced.
+$CHPL_HOMEtest/parallel/taskPar/taskIntents/21-capture-in-cobegin.chpl:507: In function 'begin_fn':
+$CHPL_HOMEtest/parallel/taskPar/taskIntents/21-capture-in-cobegin.chpl:611: warning: Potential unsafe (use after free) use of variable u8 here. Please make sure the variable use is properly synced.
+$CHPL_HOMEtest/parallel/taskPar/taskIntents/21-capture-in-cobegin.chpl:507: In function 'begin_fn':
+$CHPL_HOMEtest/parallel/taskPar/taskIntents/21-capture-in-cobegin.chpl:612: warning: Potential unsafe (use after free) use of variable u16 here. Please make sure the variable use is properly synced.
+$CHPL_HOMEtest/parallel/taskPar/taskIntents/21-capture-in-cobegin.chpl:507: In function 'begin_fn':
+$CHPL_HOMEtest/parallel/taskPar/taskIntents/21-capture-in-cobegin.chpl:613: warning: Potential unsafe (use after free) use of variable u32 here. Please make sure the variable use is properly synced.
+$CHPL_HOMEtest/parallel/taskPar/taskIntents/21-capture-in-cobegin.chpl:507: In function 'begin_fn':
+$CHPL_HOMEtest/parallel/taskPar/taskIntents/21-capture-in-cobegin.chpl:614: warning: Potential unsafe (use after free) use of variable u64 here. Please make sure the variable use is properly synced.
+$CHPL_HOMEtest/parallel/taskPar/taskIntents/21-capture-in-cobegin.chpl:507: In function 'begin_fn':
+$CHPL_HOMEtest/parallel/taskPar/taskIntents/21-capture-in-cobegin.chpl:615: warning: Potential unsafe (use after free) use of variable i8 here. Please make sure the variable use is properly synced.
+$CHPL_HOMEtest/parallel/taskPar/taskIntents/21-capture-in-cobegin.chpl:507: In function 'begin_fn':
+$CHPL_HOMEtest/parallel/taskPar/taskIntents/21-capture-in-cobegin.chpl:616: warning: Potential unsafe (use after free) use of variable i16 here. Please make sure the variable use is properly synced.
+$CHPL_HOMEtest/parallel/taskPar/taskIntents/21-capture-in-cobegin.chpl:507: In function 'begin_fn':
+$CHPL_HOMEtest/parallel/taskPar/taskIntents/21-capture-in-cobegin.chpl:617: warning: Potential unsafe (use after free) use of variable i32 here. Please make sure the variable use is properly synced.
+$CHPL_HOMEtest/parallel/taskPar/taskIntents/21-capture-in-cobegin.chpl:507: In function 'begin_fn':
+$CHPL_HOMEtest/parallel/taskPar/taskIntents/21-capture-in-cobegin.chpl:618: warning: Potential unsafe (use after free) use of variable i64 here. Please make sure the variable use is properly synced.
+$CHPL_HOMEtest/parallel/taskPar/taskIntents/21-capture-in-cobegin.chpl:507: In function 'begin_fn':
+$CHPL_HOMEtest/parallel/taskPar/taskIntents/21-capture-in-cobegin.chpl:619: warning: Potential unsafe (use after free) use of variable r32 here. Please make sure the variable use is properly synced.
+$CHPL_HOMEtest/parallel/taskPar/taskIntents/21-capture-in-cobegin.chpl:507: In function 'begin_fn':
+$CHPL_HOMEtest/parallel/taskPar/taskIntents/21-capture-in-cobegin.chpl:620: warning: Potential unsafe (use after free) use of variable r64 here. Please make sure the variable use is properly synced.
+$CHPL_HOMEtest/parallel/taskPar/taskIntents/21-capture-in-cobegin.chpl:507: In function 'begin_fn':
+$CHPL_HOMEtest/parallel/taskPar/taskIntents/21-capture-in-cobegin.chpl:621: warning: Potential unsafe (use after free) use of variable m32 here. Please make sure the variable use is properly synced.
+$CHPL_HOMEtest/parallel/taskPar/taskIntents/21-capture-in-cobegin.chpl:507: In function 'begin_fn':
+$CHPL_HOMEtest/parallel/taskPar/taskIntents/21-capture-in-cobegin.chpl:622: warning: Potential unsafe (use after free) use of variable m64 here. Please make sure the variable use is properly synced.
+$CHPL_HOMEtest/parallel/taskPar/taskIntents/21-capture-in-cobegin.chpl:507: In function 'begin_fn':
+$CHPL_HOMEtest/parallel/taskPar/taskIntents/21-capture-in-cobegin.chpl:623: warning: Potential unsafe (use after free) use of variable z64 here. Please make sure the variable use is properly synced.
+$CHPL_HOMEtest/parallel/taskPar/taskIntents/21-capture-in-cobegin.chpl:507: In function 'begin_fn':
+$CHPL_HOMEtest/parallel/taskPar/taskIntents/21-capture-in-cobegin.chpl:624: warning: Potential unsafe (use after free) use of variable z128 here. Please make sure the variable use is properly synced.
+$CHPL_HOMEtest/parallel/taskPar/taskIntents/21-capture-in-cobegin.chpl:507: In function 'begin_fn':
+$CHPL_HOMEtest/parallel/taskPar/taskIntents/21-capture-in-cobegin.chpl:626: warning: Potential unsafe (use after free) use of variable enm here. Please make sure the variable use is properly synced.
+$CHPL_HOMEtest/parallel/taskPar/taskIntents/21-capture-in-cobegin.chpl:507: In function 'begin_fn':
+$CHPL_HOMEtest/parallel/taskPar/taskIntents/21-capture-in-cobegin.chpl:629: warning: Potential unsafe (use after free) use of variable cls here. Please make sure the variable use is properly synced.
+$CHPL_HOMEtest/parallel/taskPar/taskIntents/21-capture-in-cobegin.chpl:507: In function 'begin_fn':
+$CHPL_HOMEtest/parallel/taskPar/taskIntents/21-capture-in-cobegin.chpl:631: warning: Potential unsafe (use after free) use of variable dom1 here. Please make sure the variable use is properly synced.
+$CHPL_HOMEtest/parallel/taskPar/taskIntents/21-capture-in-cobegin.chpl:507: In function 'begin_fn':
+$CHPL_HOMEtest/parallel/taskPar/taskIntents/21-capture-in-cobegin.chpl:632: warning: Potential unsafe (use after free) use of variable dom2 here. Please make sure the variable use is properly synced.
+$CHPL_HOMEtest/parallel/taskPar/taskIntents/21-capture-in-cobegin.chpl:507: In function 'begin_fn':
+$CHPL_HOMEtest/parallel/taskPar/taskIntents/21-capture-in-cobegin.chpl:633: warning: Potential unsafe (use after free) use of variable arr1 here. Please make sure the variable use is properly synced.
+$CHPL_HOMEtest/parallel/taskPar/taskIntents/21-capture-in-cobegin.chpl:507: In function 'begin_fn':
+$CHPL_HOMEtest/parallel/taskPar/taskIntents/21-capture-in-cobegin.chpl:634: warning: Potential unsafe (use after free) use of variable arr2 here. Please make sure the variable use is properly synced.
+$CHPL_HOMEtest/parallel/taskPar/taskIntents/21-capture-in-cobegin.chpl:703: warning: Potential unsafe (use after free) use of variable arr1 here. Please make sure the variable use is properly synced.
+$CHPL_HOMEtest/parallel/taskPar/taskIntents/21-capture-in-cobegin.chpl:704: warning: Potential unsafe (use after free) use of variable arr2 here. Please make sure the variable use is properly synced.
+
+real	0m12.373s
+user	0m12.052s
+sys	0m0.240s
+/home/jkrishnavs/chapel/chapel/test/parallel/taskPar/taskIntents/31-capture-in-coforall.chpl
+internal error: seg fault [misc.cpp:491]
+
+real	0m5.623s
+user	0m5.544s
+sys	0m0.072s
+/home/jkrishnavs/chapel/chapel/test/parallel/taskPar/taskIntents/32-no-capture-in-coforall.chpl
+internal error: seg fault [misc.cpp:491]
+
+real	0m5.650s
+user	0m5.572s
+sys	0m0.068s
+/home/jkrishnavs/chapel/chapel/test/parallel/taskPar/taskIntents/12-no-capture-in-begin.chpl
+$CHPL_HOMEtest/parallel/taskPar/taskIntents/12-no-capture-in-begin.chpl:827: warning: Potential unsafe (use after free) use of variable z64 here. Please make sure the variable use is properly synced.
+$CHPL_HOMEtest/parallel/taskPar/taskIntents/12-no-capture-in-begin.chpl:828: warning: Potential unsafe (use after free) use of variable z128 here. Please make sure the variable use is properly synced.
+$CHPL_HOMEtest/parallel/taskPar/taskIntents/12-no-capture-in-begin.chpl:822: warning: Potential unsafe (use after free) use of variable i64 here. Please make sure the variable use is properly synced.
+$CHPL_HOMEtest/parallel/taskPar/taskIntents/12-no-capture-in-begin.chpl:661: warning: Potential unsafe (use after free) use of variable enm here. Please make sure the variable use is properly synced.
+$CHPL_HOMEtest/parallel/taskPar/taskIntents/12-no-capture-in-begin.chpl:820: warning: Potential unsafe (use after free) use of variable i16 here. Please make sure the variable use is properly synced.
+$CHPL_HOMEtest/parallel/taskPar/taskIntents/12-no-capture-in-begin.chpl:833: warning: Potential unsafe (use after free) use of variable cls here. Please make sure the variable use is properly synced.
+$CHPL_HOMEtest/parallel/taskPar/taskIntents/12-no-capture-in-begin.chpl:836: warning: Potential unsafe (use after free) use of variable dom2 here. Please make sure the variable use is properly synced.
+$CHPL_HOMEtest/parallel/taskPar/taskIntents/12-no-capture-in-begin.chpl:838: warning: Potential unsafe (use after free) use of variable arr2 here. Please make sure the variable use is properly synced.
+$CHPL_HOMEtest/parallel/taskPar/taskIntents/12-no-capture-in-begin.chpl:815: warning: Potential unsafe (use after free) use of variable u8 here. Please make sure the variable use is properly synced.
+$CHPL_HOMEtest/parallel/taskPar/taskIntents/12-no-capture-in-begin.chpl:817: warning: Potential unsafe (use after free) use of variable u32 here. Please make sure the variable use is properly synced.
+$CHPL_HOMEtest/parallel/taskPar/taskIntents/12-no-capture-in-begin.chpl:837: warning: Potential unsafe (use after free) use of variable arr1 here. Please make sure the variable use is properly synced.
+$CHPL_HOMEtest/parallel/taskPar/taskIntents/12-no-capture-in-begin.chpl:824: warning: Potential unsafe (use after free) use of variable r64 here. Please make sure the variable use is properly synced.
+$CHPL_HOMEtest/parallel/taskPar/taskIntents/12-no-capture-in-begin.chpl:841: warning: Potential unsafe (use after free) use of variable s$ here. Please make sure the variable use is properly synced.
+$CHPL_HOMEtest/parallel/taskPar/taskIntents/12-no-capture-in-begin.chpl:814: warning: Potential unsafe (use after free) use of variable b64 here. Please make sure the variable use is properly synced.
+$CHPL_HOMEtest/parallel/taskPar/taskIntents/12-no-capture-in-begin.chpl:821: warning: Potential unsafe (use after free) use of variable i32 here. Please make sure the variable use is properly synced.
+$CHPL_HOMEtest/parallel/taskPar/taskIntents/12-no-capture-in-begin.chpl:823: warning: Potential unsafe (use after free) use of variable r32 here. Please make sure the variable use is properly synced.
+$CHPL_HOMEtest/parallel/taskPar/taskIntents/12-no-capture-in-begin.chpl:826: warning: Potential unsafe (use after free) use of variable m64 here. Please make sure the variable use is properly synced.
+$CHPL_HOMEtest/parallel/taskPar/taskIntents/12-no-capture-in-begin.chpl:659: warning: Potential unsafe (use after free) use of variable z128 here. Please make sure the variable use is properly synced.
+$CHPL_HOMEtest/parallel/taskPar/taskIntents/12-no-capture-in-begin.chpl:830: warning: Potential unsafe (use after free) use of variable enm here. Please make sure the variable use is properly synced.
+$CHPL_HOMEtest/parallel/taskPar/taskIntents/12-no-capture-in-begin.chpl:819: warning: Potential unsafe (use after free) use of variable i8 here. Please make sure the variable use is properly synced.
+$CHPL_HOMEtest/parallel/taskPar/taskIntents/12-no-capture-in-begin.chpl:816: warning: Potential unsafe (use after free) use of variable u16 here. Please make sure the variable use is properly synced.
+$CHPL_HOMEtest/parallel/taskPar/taskIntents/12-no-capture-in-begin.chpl:818: warning: Potential unsafe (use after free) use of variable u64 here. Please make sure the variable use is properly synced.
+$CHPL_HOMEtest/parallel/taskPar/taskIntents/12-no-capture-in-begin.chpl:835: warning: Potential unsafe (use after free) use of variable dom1 here. Please make sure the variable use is properly synced.
+$CHPL_HOMEtest/parallel/taskPar/taskIntents/12-no-capture-in-begin.chpl:825: warning: Potential unsafe (use after free) use of variable m32 here. Please make sure the variable use is properly synced.
+$CHPL_HOMEtest/parallel/taskPar/taskIntents/12-no-capture-in-begin.chpl:658: warning: Potential unsafe (use after free) use of variable z64 here. Please make sure the variable use is properly synced.
+$CHPL_HOMEtest/parallel/taskPar/taskIntents/12-no-capture-in-begin.chpl:667: warning: Potential unsafe (use after free) use of variable dom2 here. Please make sure the variable use is properly synced.
+$CHPL_HOMEtest/parallel/taskPar/taskIntents/12-no-capture-in-begin.chpl:784: warning: Potential unsafe (use after free) use of variable b64 here. Please make sure the variable use is properly synced.
+$CHPL_HOMEtest/parallel/taskPar/taskIntents/12-no-capture-in-begin.chpl:780: warning: Potential unsafe (use after free) use of variable b0 here. Please make sure the variable use is properly synced.
+$CHPL_HOMEtest/parallel/taskPar/taskIntents/12-no-capture-in-begin.chpl:798: warning: Potential unsafe (use after free) use of variable z128 here. Please make sure the variable use is properly synced.
+$CHPL_HOMEtest/parallel/taskPar/taskIntents/12-no-capture-in-begin.chpl:794: warning: Potential unsafe (use after free) use of variable r64 here. Please make sure the variable use is properly synced.
+$CHPL_HOMEtest/parallel/taskPar/taskIntents/12-no-capture-in-begin.chpl:812: warning: Potential unsafe (use after free) use of variable b16 here. Please make sure the variable use is properly synced.
+$CHPL_HOMEtest/parallel/taskPar/taskIntents/12-no-capture-in-begin.chpl:792: warning: Potential unsafe (use after free) use of variable i64 here. Please make sure the variable use is properly synced.
+$CHPL_HOMEtest/parallel/taskPar/taskIntents/12-no-capture-in-begin.chpl:787: warning: Potential unsafe (use after free) use of variable u32 here. Please make sure the variable use is properly synced.
+$CHPL_HOMEtest/parallel/taskPar/taskIntents/12-no-capture-in-begin.chpl:793: warning: Potential unsafe (use after free) use of variable r32 here. Please make sure the variable use is properly synced.
+$CHPL_HOMEtest/parallel/taskPar/taskIntents/12-no-capture-in-begin.chpl:789: warning: Potential unsafe (use after free) use of variable i8 here. Please make sure the variable use is properly synced.
+$CHPL_HOMEtest/parallel/taskPar/taskIntents/12-no-capture-in-begin.chpl:806: warning: Potential unsafe (use after free) use of variable dom2 here. Please make sure the variable use is properly synced.
+$CHPL_HOMEtest/parallel/taskPar/taskIntents/12-no-capture-in-begin.chpl:790: warning: Potential unsafe (use after free) use of variable i16 here. Please make sure the variable use is properly synced.
+$CHPL_HOMEtest/parallel/taskPar/taskIntents/12-no-capture-in-begin.chpl:666: warning: Potential unsafe (use after free) use of variable dom1 here. Please make sure the variable use is properly synced.
+$CHPL_HOMEtest/parallel/taskPar/taskIntents/12-no-capture-in-begin.chpl:791: warning: Potential unsafe (use after free) use of variable i32 here. Please make sure the variable use is properly synced.
+$CHPL_HOMEtest/parallel/taskPar/taskIntents/12-no-capture-in-begin.chpl:795: warning: Potential unsafe (use after free) use of variable m32 here. Please make sure the variable use is properly synced.
+$CHPL_HOMEtest/parallel/taskPar/taskIntents/12-no-capture-in-begin.chpl:810: warning: Potential unsafe (use after free) use of variable b0 here. Please make sure the variable use is properly synced.
+$CHPL_HOMEtest/parallel/taskPar/taskIntents/12-no-capture-in-begin.chpl:808: warning: Potential unsafe (use after free) use of variable arr2 here. Please make sure the variable use is properly synced.
+$CHPL_HOMEtest/parallel/taskPar/taskIntents/12-no-capture-in-begin.chpl:668: warning: Potential unsafe (use after free) use of variable arr1 here. Please make sure the variable use is properly synced.
+$CHPL_HOMEtest/parallel/taskPar/taskIntents/12-no-capture-in-begin.chpl:805: warning: Potential unsafe (use after free) use of variable dom1 here. Please make sure the variable use is properly synced.
+$CHPL_HOMEtest/parallel/taskPar/taskIntents/12-no-capture-in-begin.chpl:786: warning: Potential unsafe (use after free) use of variable u16 here. Please make sure the variable use is properly synced.
+$CHPL_HOMEtest/parallel/taskPar/taskIntents/12-no-capture-in-begin.chpl:797: warning: Potential unsafe (use after free) use of variable z64 here. Please make sure the variable use is properly synced.
+$CHPL_HOMEtest/parallel/taskPar/taskIntents/12-no-capture-in-begin.chpl:803: warning: Potential unsafe (use after free) use of variable cls here. Please make sure the variable use is properly synced.
+$CHPL_HOMEtest/parallel/taskPar/taskIntents/12-no-capture-in-begin.chpl:788: warning: Potential unsafe (use after free) use of variable u64 here. Please make sure the variable use is properly synced.
+$CHPL_HOMEtest/parallel/taskPar/taskIntents/12-no-capture-in-begin.chpl:811: warning: Potential unsafe (use after free) use of variable b8 here. Please make sure the variable use is properly synced.
+$CHPL_HOMEtest/parallel/taskPar/taskIntents/12-no-capture-in-begin.chpl:813: warning: Potential unsafe (use after free) use of variable b32 here. Please make sure the variable use is properly synced.
+$CHPL_HOMEtest/parallel/taskPar/taskIntents/12-no-capture-in-begin.chpl:807: warning: Potential unsafe (use after free) use of variable arr1 here. Please make sure the variable use is properly synced.
+$CHPL_HOMEtest/parallel/taskPar/taskIntents/12-no-capture-in-begin.chpl:781: warning: Potential unsafe (use after free) use of variable b8 here. Please make sure the variable use is properly synced.
+$CHPL_HOMEtest/parallel/taskPar/taskIntents/12-no-capture-in-begin.chpl:664: warning: Potential unsafe (use after free) use of variable cls here. Please make sure the variable use is properly synced.
+$CHPL_HOMEtest/parallel/taskPar/taskIntents/12-no-capture-in-begin.chpl:783: warning: Potential unsafe (use after free) use of variable b32 here. Please make sure the variable use is properly synced.
+$CHPL_HOMEtest/parallel/taskPar/taskIntents/12-no-capture-in-begin.chpl:800: warning: Potential unsafe (use after free) use of variable enm here. Please make sure the variable use is properly synced.
+$CHPL_HOMEtest/parallel/taskPar/taskIntents/12-no-capture-in-begin.chpl:796: warning: Potential unsafe (use after free) use of variable m64 here. Please make sure the variable use is properly synced.
+$CHPL_HOMEtest/parallel/taskPar/taskIntents/12-no-capture-in-begin.chpl:672: warning: Potential unsafe (use after free) use of variable s$ here. Please make sure the variable use is properly synced.
+$CHPL_HOMEtest/parallel/taskPar/taskIntents/12-no-capture-in-begin.chpl:785: warning: Potential unsafe (use after free) use of variable u8 here. Please make sure the variable use is properly synced.
+$CHPL_HOMEtest/parallel/taskPar/taskIntents/12-no-capture-in-begin.chpl:782: warning: Potential unsafe (use after free) use of variable b16 here. Please make sure the variable use is properly synced.
+$CHPL_HOMEtest/parallel/taskPar/taskIntents/12-no-capture-in-begin.chpl:653: warning: Potential unsafe (use after free) use of variable i64 here. Please make sure the variable use is properly synced.
+$CHPL_HOMEtest/parallel/taskPar/taskIntents/12-no-capture-in-begin.chpl:650: warning: Potential unsafe (use after free) use of variable i8 here. Please make sure the variable use is properly synced.
+$CHPL_HOMEtest/parallel/taskPar/taskIntents/12-no-capture-in-begin.chpl:651: warning: Potential unsafe (use after free) use of variable i16 here. Please make sure the variable use is properly synced.
+$CHPL_HOMEtest/parallel/taskPar/taskIntents/12-no-capture-in-begin.chpl:652: warning: Potential unsafe (use after free) use of variable i32 here. Please make sure the variable use is properly synced.
+$CHPL_HOMEtest/parallel/taskPar/taskIntents/12-no-capture-in-begin.chpl:654: warning: Potential unsafe (use after free) use of variable r32 here. Please make sure the variable use is properly synced.
+$CHPL_HOMEtest/parallel/taskPar/taskIntents/12-no-capture-in-begin.chpl:655: warning: Potential unsafe (use after free) use of variable r64 here. Please make sure the variable use is properly synced.
+$CHPL_HOMEtest/parallel/taskPar/taskIntents/12-no-capture-in-begin.chpl:656: warning: Potential unsafe (use after free) use of variable m32 here. Please make sure the variable use is properly synced.
+$CHPL_HOMEtest/parallel/taskPar/taskIntents/12-no-capture-in-begin.chpl:657: warning: Potential unsafe (use after free) use of variable m64 here. Please make sure the variable use is properly synced.
+$CHPL_HOMEtest/parallel/taskPar/taskIntents/12-no-capture-in-begin.chpl:643: warning: Potential unsafe (use after free) use of variable b16 here. Please make sure the variable use is properly synced.
+$CHPL_HOMEtest/parallel/taskPar/taskIntents/12-no-capture-in-begin.chpl:642: warning: Potential unsafe (use after free) use of variable b8 here. Please make sure the variable use is properly synced.
+$CHPL_HOMEtest/parallel/taskPar/taskIntents/12-no-capture-in-begin.chpl:641: warning: Potential unsafe (use after free) use of variable b0 here. Please make sure the variable use is properly synced.
+$CHPL_HOMEtest/parallel/taskPar/taskIntents/12-no-capture-in-begin.chpl:639: warning: Potential unsafe (use after free) use of variable arr2 here. Please make sure the variable use is properly synced.
+$CHPL_HOMEtest/parallel/taskPar/taskIntents/12-no-capture-in-begin.chpl:638: warning: Potential unsafe (use after free) use of variable arr1 here. Please make sure the variable use is properly synced.
+$CHPL_HOMEtest/parallel/taskPar/taskIntents/12-no-capture-in-begin.chpl:637: warning: Potential unsafe (use after free) use of variable dom2 here. Please make sure the variable use is properly synced.
+$CHPL_HOMEtest/parallel/taskPar/taskIntents/12-no-capture-in-begin.chpl:636: warning: Potential unsafe (use after free) use of variable dom1 here. Please make sure the variable use is properly synced.
+$CHPL_HOMEtest/parallel/taskPar/taskIntents/12-no-capture-in-begin.chpl:634: warning: Potential unsafe (use after free) use of variable cls here. Please make sure the variable use is properly synced.
+$CHPL_HOMEtest/parallel/taskPar/taskIntents/12-no-capture-in-begin.chpl:631: warning: Potential unsafe (use after free) use of variable enm here. Please make sure the variable use is properly synced.
+$CHPL_HOMEtest/parallel/taskPar/taskIntents/12-no-capture-in-begin.chpl:629: warning: Potential unsafe (use after free) use of variable z128 here. Please make sure the variable use is properly synced.
+$CHPL_HOMEtest/parallel/taskPar/taskIntents/12-no-capture-in-begin.chpl:628: warning: Potential unsafe (use after free) use of variable z64 here. Please make sure the variable use is properly synced.
+$CHPL_HOMEtest/parallel/taskPar/taskIntents/12-no-capture-in-begin.chpl:627: warning: Potential unsafe (use after free) use of variable m64 here. Please make sure the variable use is properly synced.
+$CHPL_HOMEtest/parallel/taskPar/taskIntents/12-no-capture-in-begin.chpl:626: warning: Potential unsafe (use after free) use of variable m32 here. Please make sure the variable use is properly synced.
+$CHPL_HOMEtest/parallel/taskPar/taskIntents/12-no-capture-in-begin.chpl:625: warning: Potential unsafe (use after free) use of variable r64 here. Please make sure the variable use is properly synced.
+$CHPL_HOMEtest/parallel/taskPar/taskIntents/12-no-capture-in-begin.chpl:624: warning: Potential unsafe (use after free) use of variable r32 here. Please make sure the variable use is properly synced.
+$CHPL_HOMEtest/parallel/taskPar/taskIntents/12-no-capture-in-begin.chpl:623: warning: Potential unsafe (use after free) use of variable i64 here. Please make sure the variable use is properly synced.
+$CHPL_HOMEtest/parallel/taskPar/taskIntents/12-no-capture-in-begin.chpl:622: warning: Potential unsafe (use after free) use of variable i32 here. Please make sure the variable use is properly synced.
+$CHPL_HOMEtest/parallel/taskPar/taskIntents/12-no-capture-in-begin.chpl:621: warning: Potential unsafe (use after free) use of variable i16 here. Please make sure the variable use is properly synced.
+$CHPL_HOMEtest/parallel/taskPar/taskIntents/12-no-capture-in-begin.chpl:620: warning: Potential unsafe (use after free) use of variable i8 here. Please make sure the variable use is properly synced.
+$CHPL_HOMEtest/parallel/taskPar/taskIntents/12-no-capture-in-begin.chpl:619: warning: Potential unsafe (use after free) use of variable u64 here. Please make sure the variable use is properly synced.
+$CHPL_HOMEtest/parallel/taskPar/taskIntents/12-no-capture-in-begin.chpl:618: warning: Potential unsafe (use after free) use of variable u32 here. Please make sure the variable use is properly synced.
+$CHPL_HOMEtest/parallel/taskPar/taskIntents/12-no-capture-in-begin.chpl:617: warning: Potential unsafe (use after free) use of variable u16 here. Please make sure the variable use is properly synced.
+$CHPL_HOMEtest/parallel/taskPar/taskIntents/12-no-capture-in-begin.chpl:616: warning: Potential unsafe (use after free) use of variable u8 here. Please make sure the variable use is properly synced.
+$CHPL_HOMEtest/parallel/taskPar/taskIntents/12-no-capture-in-begin.chpl:615: warning: Potential unsafe (use after free) use of variable b64 here. Please make sure the variable use is properly synced.
+$CHPL_HOMEtest/parallel/taskPar/taskIntents/12-no-capture-in-begin.chpl:614: warning: Potential unsafe (use after free) use of variable b32 here. Please make sure the variable use is properly synced.
+$CHPL_HOMEtest/parallel/taskPar/taskIntents/12-no-capture-in-begin.chpl:613: warning: Potential unsafe (use after free) use of variable b16 here. Please make sure the variable use is properly synced.
+$CHPL_HOMEtest/parallel/taskPar/taskIntents/12-no-capture-in-begin.chpl:612: warning: Potential unsafe (use after free) use of variable b8 here. Please make sure the variable use is properly synced.
+$CHPL_HOMEtest/parallel/taskPar/taskIntents/12-no-capture-in-begin.chpl:611: warning: Potential unsafe (use after free) use of variable b0 here. Please make sure the variable use is properly synced.
+$CHPL_HOMEtest/parallel/taskPar/taskIntents/12-no-capture-in-begin.chpl:644: warning: Potential unsafe (use after free) use of variable b32 here. Please make sure the variable use is properly synced.
+$CHPL_HOMEtest/parallel/taskPar/taskIntents/12-no-capture-in-begin.chpl:645: warning: Potential unsafe (use after free) use of variable b64 here. Please make sure the variable use is properly synced.
+$CHPL_HOMEtest/parallel/taskPar/taskIntents/12-no-capture-in-begin.chpl:646: warning: Potential unsafe (use after free) use of variable u8 here. Please make sure the variable use is properly synced.
+$CHPL_HOMEtest/parallel/taskPar/taskIntents/12-no-capture-in-begin.chpl:647: warning: Potential unsafe (use after free) use of variable u16 here. Please make sure the variable use is properly synced.
+$CHPL_HOMEtest/parallel/taskPar/taskIntents/12-no-capture-in-begin.chpl:648: warning: Potential unsafe (use after free) use of variable u32 here. Please make sure the variable use is properly synced.
+$CHPL_HOMEtest/parallel/taskPar/taskIntents/12-no-capture-in-begin.chpl:649: warning: Potential unsafe (use after free) use of variable u64 here. Please make sure the variable use is properly synced.
+$CHPL_HOMEtest/parallel/taskPar/taskIntents/12-no-capture-in-begin.chpl:669: warning: Potential unsafe (use after free) use of variable arr2 here. Please make sure the variable use is properly synced.
+$CHPL_HOMEtest/parallel/taskPar/taskIntents/12-no-capture-in-begin.chpl:826: warning: Potential unsafe (use after free) use of variable m64 here. Please make sure the variable use is properly synced.
+$CHPL_HOMEtest/parallel/taskPar/taskIntents/12-no-capture-in-begin.chpl:811: warning: Potential unsafe (use after free) use of variable b8 here. Please make sure the variable use is properly synced.
+$CHPL_HOMEtest/parallel/taskPar/taskIntents/12-no-capture-in-begin.chpl:830: warning: Potential unsafe (use after free) use of variable enm here. Please make sure the variable use is properly synced.
+$CHPL_HOMEtest/parallel/taskPar/taskIntents/12-no-capture-in-begin.chpl:812: warning: Potential unsafe (use after free) use of variable b16 here. Please make sure the variable use is properly synced.
+$CHPL_HOMEtest/parallel/taskPar/taskIntents/12-no-capture-in-begin.chpl:797: warning: Potential unsafe (use after free) use of variable z64 here. Please make sure the variable use is properly synced.
+$CHPL_HOMEtest/parallel/taskPar/taskIntents/12-no-capture-in-begin.chpl:792: warning: Potential unsafe (use after free) use of variable i64 here. Please make sure the variable use is properly synced.
+$CHPL_HOMEtest/parallel/taskPar/taskIntents/12-no-capture-in-begin.chpl:813: warning: Potential unsafe (use after free) use of variable b32 here. Please make sure the variable use is properly synced.
+$CHPL_HOMEtest/parallel/taskPar/taskIntents/12-no-capture-in-begin.chpl:803: warning: Potential unsafe (use after free) use of variable cls here. Please make sure the variable use is properly synced.
+$CHPL_HOMEtest/parallel/taskPar/taskIntents/12-no-capture-in-begin.chpl:836: warning: Potential unsafe (use after free) use of variable dom2 here. Please make sure the variable use is properly synced.
+$CHPL_HOMEtest/parallel/taskPar/taskIntents/12-no-capture-in-begin.chpl:796: warning: Potential unsafe (use after free) use of variable m64 here. Please make sure the variable use is properly synced.
+$CHPL_HOMEtest/parallel/taskPar/taskIntents/12-no-capture-in-begin.chpl:833: warning: Potential unsafe (use after free) use of variable cls here. Please make sure the variable use is properly synced.
+$CHPL_HOMEtest/parallel/taskPar/taskIntents/12-no-capture-in-begin.chpl:798: warning: Potential unsafe (use after free) use of variable z128 here. Please make sure the variable use is properly synced.
+$CHPL_HOMEtest/parallel/taskPar/taskIntents/12-no-capture-in-begin.chpl:823: warning: Potential unsafe (use after free) use of variable r32 here. Please make sure the variable use is properly synced.
+$CHPL_HOMEtest/parallel/taskPar/taskIntents/12-no-capture-in-begin.chpl:808: warning: Potential unsafe (use after free) use of variable arr2 here. Please make sure the variable use is properly synced.
+$CHPL_HOMEtest/parallel/taskPar/taskIntents/12-no-capture-in-begin.chpl:790: warning: Potential unsafe (use after free) use of variable i16 here. Please make sure the variable use is properly synced.
+$CHPL_HOMEtest/parallel/taskPar/taskIntents/12-no-capture-in-begin.chpl:791: warning: Potential unsafe (use after free) use of variable i32 here. Please make sure the variable use is properly synced.
+$CHPL_HOMEtest/parallel/taskPar/taskIntents/12-no-capture-in-begin.chpl:793: warning: Potential unsafe (use after free) use of variable r32 here. Please make sure the variable use is properly synced.
+$CHPL_HOMEtest/parallel/taskPar/taskIntents/12-no-capture-in-begin.chpl:817: warning: Potential unsafe (use after free) use of variable u32 here. Please make sure the variable use is properly synced.
+$CHPL_HOMEtest/parallel/taskPar/taskIntents/12-no-capture-in-begin.chpl:815: warning: Potential unsafe (use after free) use of variable u8 here. Please make sure the variable use is properly synced.
+$CHPL_HOMEtest/parallel/taskPar/taskIntents/12-no-capture-in-begin.chpl:835: warning: Potential unsafe (use after free) use of variable dom1 here. Please make sure the variable use is properly synced.
+$CHPL_HOMEtest/parallel/taskPar/taskIntents/12-no-capture-in-begin.chpl:789: warning: Potential unsafe (use after free) use of variable i8 here. Please make sure the variable use is properly synced.
+$CHPL_HOMEtest/parallel/taskPar/taskIntents/12-no-capture-in-begin.chpl:795: warning: Potential unsafe (use after free) use of variable m32 here. Please make sure the variable use is properly synced.
+$CHPL_HOMEtest/parallel/taskPar/taskIntents/12-no-capture-in-begin.chpl:794: warning: Potential unsafe (use after free) use of variable r64 here. Please make sure the variable use is properly synced.
+$CHPL_HOMEtest/parallel/taskPar/taskIntents/12-no-capture-in-begin.chpl:805: warning: Potential unsafe (use after free) use of variable dom1 here. Please make sure the variable use is properly synced.
+$CHPL_HOMEtest/parallel/taskPar/taskIntents/12-no-capture-in-begin.chpl:838: warning: Potential unsafe (use after free) use of variable arr2 here. Please make sure the variable use is properly synced.
+$CHPL_HOMEtest/parallel/taskPar/taskIntents/12-no-capture-in-begin.chpl:827: warning: Potential unsafe (use after free) use of variable z64 here. Please make sure the variable use is properly synced.
+$CHPL_HOMEtest/parallel/taskPar/taskIntents/12-no-capture-in-begin.chpl:816: warning: Potential unsafe (use after free) use of variable u16 here. Please make sure the variable use is properly synced.
+$CHPL_HOMEtest/parallel/taskPar/taskIntents/12-no-capture-in-begin.chpl:828: warning: Potential unsafe (use after free) use of variable z128 here. Please make sure the variable use is properly synced.
+$CHPL_HOMEtest/parallel/taskPar/taskIntents/12-no-capture-in-begin.chpl:820: warning: Potential unsafe (use after free) use of variable i16 here. Please make sure the variable use is properly synced.
+$CHPL_HOMEtest/parallel/taskPar/taskIntents/12-no-capture-in-begin.chpl:819: warning: Potential unsafe (use after free) use of variable i8 here. Please make sure the variable use is properly synced.
+$CHPL_HOMEtest/parallel/taskPar/taskIntents/12-no-capture-in-begin.chpl:822: warning: Potential unsafe (use after free) use of variable i64 here. Please make sure the variable use is properly synced.
+$CHPL_HOMEtest/parallel/taskPar/taskIntents/12-no-capture-in-begin.chpl:818: warning: Potential unsafe (use after free) use of variable u64 here. Please make sure the variable use is properly synced.
+$CHPL_HOMEtest/parallel/taskPar/taskIntents/12-no-capture-in-begin.chpl:806: warning: Potential unsafe (use after free) use of variable dom2 here. Please make sure the variable use is properly synced.
+$CHPL_HOMEtest/parallel/taskPar/taskIntents/12-no-capture-in-begin.chpl:821: warning: Potential unsafe (use after free) use of variable i32 here. Please make sure the variable use is properly synced.
+$CHPL_HOMEtest/parallel/taskPar/taskIntents/12-no-capture-in-begin.chpl:837: warning: Potential unsafe (use after free) use of variable arr1 here. Please make sure the variable use is properly synced.
+$CHPL_HOMEtest/parallel/taskPar/taskIntents/12-no-capture-in-begin.chpl:807: warning: Potential unsafe (use after free) use of variable arr1 here. Please make sure the variable use is properly synced.
+$CHPL_HOMEtest/parallel/taskPar/taskIntents/12-no-capture-in-begin.chpl:841: warning: Potential unsafe (use after free) use of variable s$ here. Please make sure the variable use is properly synced.
+$CHPL_HOMEtest/parallel/taskPar/taskIntents/12-no-capture-in-begin.chpl:825: warning: Potential unsafe (use after free) use of variable m32 here. Please make sure the variable use is properly synced.
+$CHPL_HOMEtest/parallel/taskPar/taskIntents/12-no-capture-in-begin.chpl:800: warning: Potential unsafe (use after free) use of variable enm here. Please make sure the variable use is properly synced.
+$CHPL_HOMEtest/parallel/taskPar/taskIntents/12-no-capture-in-begin.chpl:814: warning: Potential unsafe (use after free) use of variable b64 here. Please make sure the variable use is properly synced.
+$CHPL_HOMEtest/parallel/taskPar/taskIntents/12-no-capture-in-begin.chpl:810: warning: Potential unsafe (use after free) use of variable b0 here. Please make sure the variable use is properly synced.
+$CHPL_HOMEtest/parallel/taskPar/taskIntents/12-no-capture-in-begin.chpl:824: warning: Potential unsafe (use after free) use of variable r64 here. Please make sure the variable use is properly synced.
+$CHPL_HOMEtest/parallel/taskPar/taskIntents/12-no-capture-in-begin.chpl:788: warning: Potential unsafe (use after free) use of variable u64 here. Please make sure the variable use is properly synced.
+$CHPL_HOMEtest/parallel/taskPar/taskIntents/12-no-capture-in-begin.chpl:786: warning: Potential unsafe (use after free) use of variable u16 here. Please make sure the variable use is properly synced.
+$CHPL_HOMEtest/parallel/taskPar/taskIntents/12-no-capture-in-begin.chpl:785: warning: Potential unsafe (use after free) use of variable u8 here. Please make sure the variable use is properly synced.
+$CHPL_HOMEtest/parallel/taskPar/taskIntents/12-no-capture-in-begin.chpl:784: warning: Potential unsafe (use after free) use of variable b64 here. Please make sure the variable use is properly synced.
+$CHPL_HOMEtest/parallel/taskPar/taskIntents/12-no-capture-in-begin.chpl:783: warning: Potential unsafe (use after free) use of variable b32 here. Please make sure the variable use is properly synced.
+$CHPL_HOMEtest/parallel/taskPar/taskIntents/12-no-capture-in-begin.chpl:782: warning: Potential unsafe (use after free) use of variable b16 here. Please make sure the variable use is properly synced.
+$CHPL_HOMEtest/parallel/taskPar/taskIntents/12-no-capture-in-begin.chpl:780: warning: Potential unsafe (use after free) use of variable b0 here. Please make sure the variable use is properly synced.
+$CHPL_HOMEtest/parallel/taskPar/taskIntents/12-no-capture-in-begin.chpl:781: warning: Potential unsafe (use after free) use of variable b8 here. Please make sure the variable use is properly synced.
+$CHPL_HOMEtest/parallel/taskPar/taskIntents/12-no-capture-in-begin.chpl:787: warning: Potential unsafe (use after free) use of variable u32 here. Please make sure the variable use is properly synced.
+
+real	0m12.203s
+user	0m11.884s
+sys	0m0.240s
+/home/jkrishnavs/chapel/chapel/test/parallel/taskPar/taskIntents/22-no-capture-in-cobegin.chpl
+$CHPL_HOMEtest/parallel/taskPar/taskIntents/22-no-capture-in-cobegin.chpl:444: warning: Potential unsafe (use after free) use of variable b0 here. Please make sure the variable use is properly synced.
+$CHPL_HOMEtest/parallel/taskPar/taskIntents/22-no-capture-in-cobegin.chpl:445: warning: Potential unsafe (use after free) use of variable b8 here. Please make sure the variable use is properly synced.
+$CHPL_HOMEtest/parallel/taskPar/taskIntents/22-no-capture-in-cobegin.chpl:446: warning: Potential unsafe (use after free) use of variable b16 here. Please make sure the variable use is properly synced.
+$CHPL_HOMEtest/parallel/taskPar/taskIntents/22-no-capture-in-cobegin.chpl:447: warning: Potential unsafe (use after free) use of variable b32 here. Please make sure the variable use is properly synced.
+$CHPL_HOMEtest/parallel/taskPar/taskIntents/22-no-capture-in-cobegin.chpl:448: warning: Potential unsafe (use after free) use of variable b64 here. Please make sure the variable use is properly synced.
+$CHPL_HOMEtest/parallel/taskPar/taskIntents/22-no-capture-in-cobegin.chpl:449: warning: Potential unsafe (use after free) use of variable u8 here. Please make sure the variable use is properly synced.
+$CHPL_HOMEtest/parallel/taskPar/taskIntents/22-no-capture-in-cobegin.chpl:450: warning: Potential unsafe (use after free) use of variable u16 here. Please make sure the variable use is properly synced.
+$CHPL_HOMEtest/parallel/taskPar/taskIntents/22-no-capture-in-cobegin.chpl:451: warning: Potential unsafe (use after free) use of variable u32 here. Please make sure the variable use is properly synced.
+$CHPL_HOMEtest/parallel/taskPar/taskIntents/22-no-capture-in-cobegin.chpl:452: warning: Potential unsafe (use after free) use of variable u64 here. Please make sure the variable use is properly synced.
+$CHPL_HOMEtest/parallel/taskPar/taskIntents/22-no-capture-in-cobegin.chpl:453: warning: Potential unsafe (use after free) use of variable i8 here. Please make sure the variable use is properly synced.
+$CHPL_HOMEtest/parallel/taskPar/taskIntents/22-no-capture-in-cobegin.chpl:454: warning: Potential unsafe (use after free) use of variable i16 here. Please make sure the variable use is properly synced.
+$CHPL_HOMEtest/parallel/taskPar/taskIntents/22-no-capture-in-cobegin.chpl:455: warning: Potential unsafe (use after free) use of variable i32 here. Please make sure the variable use is properly synced.
+$CHPL_HOMEtest/parallel/taskPar/taskIntents/22-no-capture-in-cobegin.chpl:456: warning: Potential unsafe (use after free) use of variable i64 here. Please make sure the variable use is properly synced.
+$CHPL_HOMEtest/parallel/taskPar/taskIntents/22-no-capture-in-cobegin.chpl:457: warning: Potential unsafe (use after free) use of variable r32 here. Please make sure the variable use is properly synced.
+$CHPL_HOMEtest/parallel/taskPar/taskIntents/22-no-capture-in-cobegin.chpl:458: warning: Potential unsafe (use after free) use of variable r64 here. Please make sure the variable use is properly synced.
+$CHPL_HOMEtest/parallel/taskPar/taskIntents/22-no-capture-in-cobegin.chpl:459: warning: Potential unsafe (use after free) use of variable m32 here. Please make sure the variable use is properly synced.
+$CHPL_HOMEtest/parallel/taskPar/taskIntents/22-no-capture-in-cobegin.chpl:460: warning: Potential unsafe (use after free) use of variable m64 here. Please make sure the variable use is properly synced.
+$CHPL_HOMEtest/parallel/taskPar/taskIntents/22-no-capture-in-cobegin.chpl:461: warning: Potential unsafe (use after free) use of variable z64 here. Please make sure the variable use is properly synced.
+$CHPL_HOMEtest/parallel/taskPar/taskIntents/22-no-capture-in-cobegin.chpl:462: warning: Potential unsafe (use after free) use of variable z128 here. Please make sure the variable use is properly synced.
+$CHPL_HOMEtest/parallel/taskPar/taskIntents/22-no-capture-in-cobegin.chpl:464: warning: Potential unsafe (use after free) use of variable enm here. Please make sure the variable use is properly synced.
+$CHPL_HOMEtest/parallel/taskPar/taskIntents/22-no-capture-in-cobegin.chpl:467: warning: Potential unsafe (use after free) use of variable cls here. Please make sure the variable use is properly synced.
+$CHPL_HOMEtest/parallel/taskPar/taskIntents/22-no-capture-in-cobegin.chpl:469: warning: Potential unsafe (use after free) use of variable dom1 here. Please make sure the variable use is properly synced.
+$CHPL_HOMEtest/parallel/taskPar/taskIntents/22-no-capture-in-cobegin.chpl:470: warning: Potential unsafe (use after free) use of variable dom2 here. Please make sure the variable use is properly synced.
+$CHPL_HOMEtest/parallel/taskPar/taskIntents/22-no-capture-in-cobegin.chpl:471: warning: Potential unsafe (use after free) use of variable arr1 here. Please make sure the variable use is properly synced.
+$CHPL_HOMEtest/parallel/taskPar/taskIntents/22-no-capture-in-cobegin.chpl:472: warning: Potential unsafe (use after free) use of variable arr2 here. Please make sure the variable use is properly synced.
+$CHPL_HOMEtest/parallel/taskPar/taskIntents/22-no-capture-in-cobegin.chpl:474: warning: Potential unsafe (use after free) use of variable b0 here. Please make sure the variable use is properly synced.
+$CHPL_HOMEtest/parallel/taskPar/taskIntents/22-no-capture-in-cobegin.chpl:475: warning: Potential unsafe (use after free) use of variable b8 here. Please make sure the variable use is properly synced.
+$CHPL_HOMEtest/parallel/taskPar/taskIntents/22-no-capture-in-cobegin.chpl:476: warning: Potential unsafe (use after free) use of variable b16 here. Please make sure the variable use is properly synced.
+$CHPL_HOMEtest/parallel/taskPar/taskIntents/22-no-capture-in-cobegin.chpl:477: warning: Potential unsafe (use after free) use of variable b32 here. Please make sure the variable use is properly synced.
+$CHPL_HOMEtest/parallel/taskPar/taskIntents/22-no-capture-in-cobegin.chpl:478: warning: Potential unsafe (use after free) use of variable b64 here. Please make sure the variable use is properly synced.
+$CHPL_HOMEtest/parallel/taskPar/taskIntents/22-no-capture-in-cobegin.chpl:479: warning: Potential unsafe (use after free) use of variable u8 here. Please make sure the variable use is properly synced.
+$CHPL_HOMEtest/parallel/taskPar/taskIntents/22-no-capture-in-cobegin.chpl:480: warning: Potential unsafe (use after free) use of variable u16 here. Please make sure the variable use is properly synced.
+$CHPL_HOMEtest/parallel/taskPar/taskIntents/22-no-capture-in-cobegin.chpl:481: warning: Potential unsafe (use after free) use of variable u32 here. Please make sure the variable use is properly synced.
+$CHPL_HOMEtest/parallel/taskPar/taskIntents/22-no-capture-in-cobegin.chpl:482: warning: Potential unsafe (use after free) use of variable u64 here. Please make sure the variable use is properly synced.
+$CHPL_HOMEtest/parallel/taskPar/taskIntents/22-no-capture-in-cobegin.chpl:483: warning: Potential unsafe (use after free) use of variable i8 here. Please make sure the variable use is properly synced.
+$CHPL_HOMEtest/parallel/taskPar/taskIntents/22-no-capture-in-cobegin.chpl:484: warning: Potential unsafe (use after free) use of variable i16 here. Please make sure the variable use is properly synced.
+$CHPL_HOMEtest/parallel/taskPar/taskIntents/22-no-capture-in-cobegin.chpl:485: warning: Potential unsafe (use after free) use of variable i32 here. Please make sure the variable use is properly synced.
+$CHPL_HOMEtest/parallel/taskPar/taskIntents/22-no-capture-in-cobegin.chpl:486: warning: Potential unsafe (use after free) use of variable i64 here. Please make sure the variable use is properly synced.
+$CHPL_HOMEtest/parallel/taskPar/taskIntents/22-no-capture-in-cobegin.chpl:487: warning: Potential unsafe (use after free) use of variable r32 here. Please make sure the variable use is properly synced.
+$CHPL_HOMEtest/parallel/taskPar/taskIntents/22-no-capture-in-cobegin.chpl:488: warning: Potential unsafe (use after free) use of variable r64 here. Please make sure the variable use is properly synced.
+$CHPL_HOMEtest/parallel/taskPar/taskIntents/22-no-capture-in-cobegin.chpl:489: warning: Potential unsafe (use after free) use of variable m32 here. Please make sure the variable use is properly synced.
+$CHPL_HOMEtest/parallel/taskPar/taskIntents/22-no-capture-in-cobegin.chpl:490: warning: Potential unsafe (use after free) use of variable m64 here. Please make sure the variable use is properly synced.
+$CHPL_HOMEtest/parallel/taskPar/taskIntents/22-no-capture-in-cobegin.chpl:491: warning: Potential unsafe (use after free) use of variable z64 here. Please make sure the variable use is properly synced.
+$CHPL_HOMEtest/parallel/taskPar/taskIntents/22-no-capture-in-cobegin.chpl:492: warning: Potential unsafe (use after free) use of variable z128 here. Please make sure the variable use is properly synced.
+$CHPL_HOMEtest/parallel/taskPar/taskIntents/22-no-capture-in-cobegin.chpl:494: warning: Potential unsafe (use after free) use of variable enm here. Please make sure the variable use is properly synced.
+$CHPL_HOMEtest/parallel/taskPar/taskIntents/22-no-capture-in-cobegin.chpl:497: warning: Potential unsafe (use after free) use of variable cls here. Please make sure the variable use is properly synced.
+$CHPL_HOMEtest/parallel/taskPar/taskIntents/22-no-capture-in-cobegin.chpl:499: warning: Potential unsafe (use after free) use of variable dom1 here. Please make sure the variable use is properly synced.
+$CHPL_HOMEtest/parallel/taskPar/taskIntents/22-no-capture-in-cobegin.chpl:500: warning: Potential unsafe (use after free) use of variable dom2 here. Please make sure the variable use is properly synced.
+$CHPL_HOMEtest/parallel/taskPar/taskIntents/22-no-capture-in-cobegin.chpl:501: warning: Potential unsafe (use after free) use of variable arr1 here. Please make sure the variable use is properly synced.
+$CHPL_HOMEtest/parallel/taskPar/taskIntents/22-no-capture-in-cobegin.chpl:502: warning: Potential unsafe (use after free) use of variable arr2 here. Please make sure the variable use is properly synced.
+$CHPL_HOMEtest/parallel/taskPar/taskIntents/22-no-capture-in-cobegin.chpl:502: warning: Potential unsafe (use after free) use of variable arr2 here. Please make sure the variable use is properly synced.
+$CHPL_HOMEtest/parallel/taskPar/taskIntents/22-no-capture-in-cobegin.chpl:501: warning: Potential unsafe (use after free) use of variable arr1 here. Please make sure the variable use is properly synced.
+$CHPL_HOMEtest/parallel/taskPar/taskIntents/22-no-capture-in-cobegin.chpl:500: warning: Potential unsafe (use after free) use of variable dom2 here. Please make sure the variable use is properly synced.
+$CHPL_HOMEtest/parallel/taskPar/taskIntents/22-no-capture-in-cobegin.chpl:499: warning: Potential unsafe (use after free) use of variable dom1 here. Please make sure the variable use is properly synced.
+$CHPL_HOMEtest/parallel/taskPar/taskIntents/22-no-capture-in-cobegin.chpl:497: warning: Potential unsafe (use after free) use of variable cls here. Please make sure the variable use is properly synced.
+$CHPL_HOMEtest/parallel/taskPar/taskIntents/22-no-capture-in-cobegin.chpl:494: warning: Potential unsafe (use after free) use of variable enm here. Please make sure the variable use is properly synced.
+$CHPL_HOMEtest/parallel/taskPar/taskIntents/22-no-capture-in-cobegin.chpl:492: warning: Potential unsafe (use after free) use of variable z128 here. Please make sure the variable use is properly synced.
+$CHPL_HOMEtest/parallel/taskPar/taskIntents/22-no-capture-in-cobegin.chpl:491: warning: Potential unsafe (use after free) use of variable z64 here. Please make sure the variable use is properly synced.
+$CHPL_HOMEtest/parallel/taskPar/taskIntents/22-no-capture-in-cobegin.chpl:490: warning: Potential unsafe (use after free) use of variable m64 here. Please make sure the variable use is properly synced.
+$CHPL_HOMEtest/parallel/taskPar/taskIntents/22-no-capture-in-cobegin.chpl:489: warning: Potential unsafe (use after free) use of variable m32 here. Please make sure the variable use is properly synced.
+$CHPL_HOMEtest/parallel/taskPar/taskIntents/22-no-capture-in-cobegin.chpl:488: warning: Potential unsafe (use after free) use of variable r64 here. Please make sure the variable use is properly synced.
+$CHPL_HOMEtest/parallel/taskPar/taskIntents/22-no-capture-in-cobegin.chpl:487: warning: Potential unsafe (use after free) use of variable r32 here. Please make sure the variable use is properly synced.
+$CHPL_HOMEtest/parallel/taskPar/taskIntents/22-no-capture-in-cobegin.chpl:486: warning: Potential unsafe (use after free) use of variable i64 here. Please make sure the variable use is properly synced.
+$CHPL_HOMEtest/parallel/taskPar/taskIntents/22-no-capture-in-cobegin.chpl:485: warning: Potential unsafe (use after free) use of variable i32 here. Please make sure the variable use is properly synced.
+$CHPL_HOMEtest/parallel/taskPar/taskIntents/22-no-capture-in-cobegin.chpl:484: warning: Potential unsafe (use after free) use of variable i16 here. Please make sure the variable use is properly synced.
+$CHPL_HOMEtest/parallel/taskPar/taskIntents/22-no-capture-in-cobegin.chpl:483: warning: Potential unsafe (use after free) use of variable i8 here. Please make sure the variable use is properly synced.
+$CHPL_HOMEtest/parallel/taskPar/taskIntents/22-no-capture-in-cobegin.chpl:482: warning: Potential unsafe (use after free) use of variable u64 here. Please make sure the variable use is properly synced.
+$CHPL_HOMEtest/parallel/taskPar/taskIntents/22-no-capture-in-cobegin.chpl:481: warning: Potential unsafe (use after free) use of variable u32 here. Please make sure the variable use is properly synced.
+$CHPL_HOMEtest/parallel/taskPar/taskIntents/22-no-capture-in-cobegin.chpl:480: warning: Potential unsafe (use after free) use of variable u16 here. Please make sure the variable use is properly synced.
+$CHPL_HOMEtest/parallel/taskPar/taskIntents/22-no-capture-in-cobegin.chpl:479: warning: Potential unsafe (use after free) use of variable u8 here. Please make sure the variable use is properly synced.
+$CHPL_HOMEtest/parallel/taskPar/taskIntents/22-no-capture-in-cobegin.chpl:478: warning: Potential unsafe (use after free) use of variable b64 here. Please make sure the variable use is properly synced.
+$CHPL_HOMEtest/parallel/taskPar/taskIntents/22-no-capture-in-cobegin.chpl:477: warning: Potential unsafe (use after free) use of variable b32 here. Please make sure the variable use is properly synced.
+$CHPL_HOMEtest/parallel/taskPar/taskIntents/22-no-capture-in-cobegin.chpl:476: warning: Potential unsafe (use after free) use of variable b16 here. Please make sure the variable use is properly synced.
+$CHPL_HOMEtest/parallel/taskPar/taskIntents/22-no-capture-in-cobegin.chpl:475: warning: Potential unsafe (use after free) use of variable b8 here. Please make sure the variable use is properly synced.
+$CHPL_HOMEtest/parallel/taskPar/taskIntents/22-no-capture-in-cobegin.chpl:474: warning: Potential unsafe (use after free) use of variable b0 here. Please make sure the variable use is properly synced.
+$CHPL_HOMEtest/parallel/taskPar/taskIntents/22-no-capture-in-cobegin.chpl:472: warning: Potential unsafe (use after free) use of variable arr2 here. Please make sure the variable use is properly synced.
+$CHPL_HOMEtest/parallel/taskPar/taskIntents/22-no-capture-in-cobegin.chpl:471: warning: Potential unsafe (use after free) use of variable arr1 here. Please make sure the variable use is properly synced.
+$CHPL_HOMEtest/parallel/taskPar/taskIntents/22-no-capture-in-cobegin.chpl:470: warning: Potential unsafe (use after free) use of variable dom2 here. Please make sure the variable use is properly synced.
+$CHPL_HOMEtest/parallel/taskPar/taskIntents/22-no-capture-in-cobegin.chpl:469: warning: Potential unsafe (use after free) use of variable dom1 here. Please make sure the variable use is properly synced.
+$CHPL_HOMEtest/parallel/taskPar/taskIntents/22-no-capture-in-cobegin.chpl:467: warning: Potential unsafe (use after free) use of variable cls here. Please make sure the variable use is properly synced.
+$CHPL_HOMEtest/parallel/taskPar/taskIntents/22-no-capture-in-cobegin.chpl:464: warning: Potential unsafe (use after free) use of variable enm here. Please make sure the variable use is properly synced.
+$CHPL_HOMEtest/parallel/taskPar/taskIntents/22-no-capture-in-cobegin.chpl:462: warning: Potential unsafe (use after free) use of variable z128 here. Please make sure the variable use is properly synced.
+$CHPL_HOMEtest/parallel/taskPar/taskIntents/22-no-capture-in-cobegin.chpl:461: warning: Potential unsafe (use after free) use of variable z64 here. Please make sure the variable use is properly synced.
+$CHPL_HOMEtest/parallel/taskPar/taskIntents/22-no-capture-in-cobegin.chpl:460: warning: Potential unsafe (use after free) use of variable m64 here. Please make sure the variable use is properly synced.
+$CHPL_HOMEtest/parallel/taskPar/taskIntents/22-no-capture-in-cobegin.chpl:459: warning: Potential unsafe (use after free) use of variable m32 here. Please make sure the variable use is properly synced.
+$CHPL_HOMEtest/parallel/taskPar/taskIntents/22-no-capture-in-cobegin.chpl:458: warning: Potential unsafe (use after free) use of variable r64 here. Please make sure the variable use is properly synced.
+$CHPL_HOMEtest/parallel/taskPar/taskIntents/22-no-capture-in-cobegin.chpl:457: warning: Potential unsafe (use after free) use of variable r32 here. Please make sure the variable use is properly synced.
+$CHPL_HOMEtest/parallel/taskPar/taskIntents/22-no-capture-in-cobegin.chpl:456: warning: Potential unsafe (use after free) use of variable i64 here. Please make sure the variable use is properly synced.
+$CHPL_HOMEtest/parallel/taskPar/taskIntents/22-no-capture-in-cobegin.chpl:455: warning: Potential unsafe (use after free) use of variable i32 here. Please make sure the variable use is properly synced.
+$CHPL_HOMEtest/parallel/taskPar/taskIntents/22-no-capture-in-cobegin.chpl:454: warning: Potential unsafe (use after free) use of variable i16 here. Please make sure the variable use is properly synced.
+$CHPL_HOMEtest/parallel/taskPar/taskIntents/22-no-capture-in-cobegin.chpl:453: warning: Potential unsafe (use after free) use of variable i8 here. Please make sure the variable use is properly synced.
+$CHPL_HOMEtest/parallel/taskPar/taskIntents/22-no-capture-in-cobegin.chpl:452: warning: Potential unsafe (use after free) use of variable u64 here. Please make sure the variable use is properly synced.
+$CHPL_HOMEtest/parallel/taskPar/taskIntents/22-no-capture-in-cobegin.chpl:451: warning: Potential unsafe (use after free) use of variable u32 here. Please make sure the variable use is properly synced.
+$CHPL_HOMEtest/parallel/taskPar/taskIntents/22-no-capture-in-cobegin.chpl:450: warning: Potential unsafe (use after free) use of variable u16 here. Please make sure the variable use is properly synced.
+$CHPL_HOMEtest/parallel/taskPar/taskIntents/22-no-capture-in-cobegin.chpl:449: warning: Potential unsafe (use after free) use of variable u8 here. Please make sure the variable use is properly synced.
+$CHPL_HOMEtest/parallel/taskPar/taskIntents/22-no-capture-in-cobegin.chpl:448: warning: Potential unsafe (use after free) use of variable b64 here. Please make sure the variable use is properly synced.
+$CHPL_HOMEtest/parallel/taskPar/taskIntents/22-no-capture-in-cobegin.chpl:447: warning: Potential unsafe (use after free) use of variable b32 here. Please make sure the variable use is properly synced.
+$CHPL_HOMEtest/parallel/taskPar/taskIntents/22-no-capture-in-cobegin.chpl:446: warning: Potential unsafe (use after free) use of variable b16 here. Please make sure the variable use is properly synced.
+$CHPL_HOMEtest/parallel/taskPar/taskIntents/22-no-capture-in-cobegin.chpl:445: warning: Potential unsafe (use after free) use of variable b8 here. Please make sure the variable use is properly synced.
+$CHPL_HOMEtest/parallel/taskPar/taskIntents/22-no-capture-in-cobegin.chpl:444: warning: Potential unsafe (use after free) use of variable b0 here. Please make sure the variable use is properly synced.
+
+real	0m12.233s
+user	0m11.884s
+sys	0m0.272s
+/home/jkrishnavs/chapel/chapel/test/functions/vass/ref-intent-bug-4begin.chpl
+$CHPL_HOMEtest/functions/vass/ref-intent-bug-4begin.chpl:7: In function 'testDriver':
+$CHPL_HOMEtest/functions/vass/ref-intent-bug-4begin.chpl:13: warning: Potential unsafe (use after free) use of variable globalVar here. Please make sure the variable use is properly synced.
+$CHPL_HOMEtest/functions/vass/ref-intent-bug-4begin.chpl:7: In function 'testDriver':
+$CHPL_HOMEtest/functions/vass/ref-intent-bug-4begin.chpl:14: warning: Potential unsafe (use after free) use of variable globalArg here. Please make sure the variable use is properly synced.
+$CHPL_HOMEtest/functions/vass/ref-intent-bug-4begin.chpl:7: In function 'testDriver':
+$CHPL_HOMEtest/functions/vass/ref-intent-bug-4begin.chpl:15: warning: Potential unsafe (use after free) use of variable localVar here. Please make sure the variable use is properly synced.
+$CHPL_HOMEtest/functions/vass/ref-intent-bug-4begin.chpl:7: In function 'testDriver':
+$CHPL_HOMEtest/functions/vass/ref-intent-bug-4begin.chpl:16: warning: Potential unsafe (use after free) use of variable localArg here. Please make sure the variable use is properly synced.
+
+real	0m6.230s
+user	0m6.004s
+sys	0m0.140s
+/home/jkrishnavs/chapel/chapel/test/studies/cholesky/jglewis/test_dataflow_cholesky.chpl
+$CHPL_HOMEtest/studies/cholesky/jglewis/test_dataflow_cholesky.chpl:80: error: Cannot find module or enum 'cholesky_execution_config_consts'
+
+real	0m0.383s
+user	0m0.352s
+sys	0m0.024s
+/home/jkrishnavs/chapel/chapel/test/studies/cholesky/jglewis/version2/dataflow/test_dataflow_cholesky.chpl
+internal error: seg fault [misc.cpp:491]
+
+real	0m6.146s
+user	0m6.048s
+sys	0m0.092s

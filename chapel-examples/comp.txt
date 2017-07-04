@@ -1,0 +1,11 @@
+externalstring.chpl:1: note: The function name is stmt
+externalstring.chpl:5: note: The function name is main
+note: The function name is _type_construct_object
+note: The function name is _construct_object
+note: The function name is chpl__init_ChapelStringLiterals
+externalstring.chpl:1: note: The function name is chpl__init_externalstring
+externalstring.chpl:5: note: The function name is chpl_gen_main
+note: The function name is ~chpl_destroy
+externalstring.chpl:12: note: The function name is begin_fn
+warning: Use of variable s1$ in line <line number> without proper synchronization could result in undesired behaviour.
+externalstring.chpl:16: note: The function name is begin_fn

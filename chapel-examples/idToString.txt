@@ -1,0 +1,227 @@
+'fn main:void'
+  (BlockStmt
+    (DefExpr 'fn showMe:void'
+        (DefExpr 'const-ref arg what:string' intent-'const ref'  "instantiated generic")
+        (BlockStmt
+          (DefExpr 'val id:chpl_taskID_t'  "insert auto destroy")
+          (DefExpr 'val call_tmp:chpl_taskID_t'  "maybe param" "maybe type" "temp")
+          (CallExpr move
+            (SymExpr 'val call_tmp:chpl_taskID_t')
+            (CallExpr
+              (SymExpr 'fn chpl_task_getId:chpl_taskID_t')))
+          (CallExpr move
+            (SymExpr 'val id:chpl_taskID_t')
+            (CallExpr
+              (SymExpr 'fn chpl__initCopy:chpl_taskID_t')
+              (SymExpr 'val call_tmp:chpl_taskID_t')))
+          (DefExpr 'val buf:_array(DefaultRectangularArr(int(8),1,int(64),false,int(64)))'  "insert auto destroy")
+          (DefExpr 'val type_tmp:_array(DefaultRectangularArr(int(8),1,int(64),false,int(64)))'  "temp")
+          (DefExpr 'val call_tmp:range(int(64),bounded,false)'  "expr temp" "insert auto copy" "insert auto destroy" "maybe param" "maybe type" "temp")
+          (CallExpr move
+            (SymExpr 'val call_tmp:range(int(64),bounded,false)')
+            (CallExpr
+              (SymExpr 'fn chpl_build_bounded_range:range(int(64),bounded,false)')
+              (SymExpr 1 'val _literal_45:int(64)')
+              (SymExpr 'val bufLen:int(64)')))
+          (DefExpr 'val call_tmp:_domain(DefaultRectangularDom(1,int(64),false))'  "expr temp" "insert auto copy" "insert auto destroy" "maybe param" "maybe type" "temp")
+          (CallExpr move
+            (SymExpr 'val call_tmp:_domain(DefaultRectangularDom(1,int(64),false))')
+            (CallExpr
+              (SymExpr 'fn chpl__ensureDomainExpr:_domain(DefaultRectangularDom(1,int(64),false))')
+              (SymExpr 'val call_tmp:range(int(64),bounded,false)')))
+          (DefExpr 'val call_tmp:_RuntimeTypeInfo'  "maybe param" "maybe type" "temp")
+          (CallExpr move
+            (SymExpr 'val call_tmp:_RuntimeTypeInfo')
+            (CallExpr
+              (SymExpr 'fn chpl__buildArrayRuntimeType:_RuntimeTypeInfo')
+              (SymExpr 'val call_tmp:_domain(DefaultRectangularDom(1,int(64),false))')))
+          (DefExpr 'val _runtime_type_tmp_:_domain(DefaultRectangularDom(1,int(64),false))'  "temp")
+          (CallExpr move
+            (SymExpr 'val _runtime_type_tmp_:_domain(DefaultRectangularDom(1,int(64),false))')
+            (CallExpr .v
+              (SymExpr 'val call_tmp:_RuntimeTypeInfo')
+              (SymExpr 'val dom:_domain(DefaultRectangularDom(1,int(64),false))')))
+          (DefExpr 'val _runtime_type_tmp_:_array(DefaultRectangularArr(int(8),1,int(64),false,int(64)))'  "temp")
+          (CallExpr move
+            (SymExpr 'val _runtime_type_tmp_:_array(DefaultRectangularArr(int(8),1,int(64),false,int(64)))')
+            (CallExpr
+              (SymExpr 'fn chpl__convertRuntimeTypeToValue:_array(DefaultRectangularArr(int(8),1,int(64),false,int(64)))')
+              (SymExpr 'val _runtime_type_tmp_:_domain(DefaultRectangularDom(1,int(64),false))')))
+          (CallExpr move
+            (SymExpr 'val type_tmp:_array(DefaultRectangularArr(int(8),1,int(64),false,int(64)))')
+            (SymExpr 'val _runtime_type_tmp_:_array(DefaultRectangularArr(int(8),1,int(64),false,int(64)))'))
+          (CallExpr move
+            (SymExpr 'val buf:_array(DefaultRectangularArr(int(8),1,int(64),false,int(64)))')
+            (SymExpr 'val type_tmp:_array(DefaultRectangularArr(int(8),1,int(64),false,int(64)))'))
+          (DefExpr 'val idStr:c_string'  "insert auto destroy")
+          (DefExpr 'val call_tmp:c_ptr(int(8))'  "expr temp" "maybe param" "maybe type" "temp")
+          (CallExpr move
+            (SymExpr 'val call_tmp:c_ptr(int(8))')
+            (CallExpr
+              (SymExpr 'fn c_ptrTo:c_ptr(int(8))')
+              (SymExpr 'val buf:_array(DefaultRectangularArr(int(8),1,int(64),false,int(64)))')))
+          (DefExpr 'val call_tmp:int(64)'  "expr temp" "maybe param" "maybe type" "temp")
+          (CallExpr move
+            (SymExpr 'val call_tmp:int(64)')
+            (CallExpr
+              (SymExpr 'fn size:int(64)')
+              (SymExpr 'val buf:_array(DefaultRectangularArr(int(8),1,int(64),false,int(64)))')))
+          (DefExpr 'val call_tmp:uint(64)'  "expr temp" "maybe param" "maybe type" "temp")
+          (CallExpr move
+            (SymExpr 'val call_tmp:uint(64)')
+            (CallExpr
+              (SymExpr 'fn _cast:uint(64)')
+              (SymExpr 'val call_tmp:int(64)')))
+          (DefExpr 'val call_tmp:c_string'  "maybe param" "maybe type" "temp")
+          (DefExpr 'val coerce_tmp:c_void_ptr'  "coerce temp" "temp")
+          (CallExpr move
+            (SymExpr 'val coerce_tmp:c_void_ptr')
+            (CallExpr
+              (SymExpr 'fn _cast:c_void_ptr')
+              (SymExpr 'val call_tmp:c_ptr(int(8))')))
+          (CallExpr move
+            (SymExpr 'val call_tmp:c_string')
+            (CallExpr
+              (SymExpr 'fn chpl_task_idToString:c_string')
+              (SymExpr 'val coerce_tmp:c_void_ptr')
+              (SymExpr 'val call_tmp:uint(64)')
+              (SymExpr 'val id:chpl_taskID_t')))
+          (CallExpr move
+            (SymExpr 'val idStr:c_string')
+            (CallExpr
+              (SymExpr 'fn chpl__initCopy:c_string')
+              (SymExpr 'val call_tmp:c_string')))
+          (DefExpr 'fn _if_fn103:string'
+              (BlockStmt
+                (DefExpr 'val ret:string'  "RVV" "maybe type" "temp")
+                (DefExpr 'val tmp:bool'  "maybe param" "temp")
+                (DefExpr 'val call_tmp:bool'  "expr temp" "maybe param" "maybe type" "temp")
+                (DefExpr 'val coerce_tmp:c_string'  "coerce temp" "temp")
+                (CallExpr move
+                  (SymExpr 'val coerce_tmp:c_string')
+                  (CallExpr
+                    (SymExpr 'fn _cast:c_string')
+                    (SymExpr 'val _nullString:c_string_copy')))
+                (CallExpr move
+                  (SymExpr 'val call_tmp:bool')
+                  (CallExpr
+                    (SymExpr 'fn ==:bool')
+                    (SymExpr 'val idStr:c_string')
+                    (SymExpr 'val coerce_tmp:c_string')))
+                (CallExpr move
+                  (SymExpr 'val tmp:bool')
+                  (CallExpr
+                    (SymExpr 'fn _cond_test:bool')
+                    (SymExpr 'val call_tmp:bool')))
+                (CondStmt
+                  (SymExpr 'val tmp:bool')
+                  (BlockStmt
+                    (CallExpr move
+                      (SymExpr 'val ret:string')
+                      (SymExpr "<OVF>" 'val _str_literal_1836:string'))
+                    (GotoStmt 
+                     (SymExpr '_end__if_fn103')
+                      (SymExpr '_end__if_fn103')))
+                  (BlockStmt
+                    (DefExpr 'val call_tmp:string'  "expr temp" "insert auto copy" "insert auto destroy" "maybe param" "maybe type" "temp")
+                    (CallExpr move
+                      (SymExpr 'val call_tmp:string')
+                      (CallExpr
+                        (SymExpr 'fn _cast:string')
+                        (SymExpr 'val idStr:c_string')))
+                    (CallExpr move
+                      (SymExpr 'val ret:string')
+                      (SymExpr 'val call_tmp:string'))
+                    (GotoStmt 
+                     (SymExpr '_end__if_fn103')
+                      (SymExpr '_end__if_fn103'))))
+                (DefExpr '_end__if_fn103'  "epilogue label")
+                (CallExpr return
+                  (SymExpr 'val ret:string')))  "compiler nested function" "if-expr function" "inline" "maybe param" "maybe ref" "maybe type" "resolved")
+          (DefExpr 'val call_tmp:string'  "expr temp" "insert auto copy" "insert auto destroy" "maybe param" "maybe type" "temp")
+          (CallExpr move
+            (SymExpr 'val call_tmp:string')
+            (CallExpr
+              (SymExpr 'fn _if_fn103:string')))
+          (CallExpr
+            (SymExpr 'fn writeln:void')
+            (SymExpr "task ID of " 'val _str_literal_1832:string')
+            (SymExpr 'const-ref arg what:string')
+            (SymExpr " is: " 'val _str_literal_1834:string')
+            (SymExpr 'val call_tmp:string'))
+          (CallExpr return
+            (SymExpr 'val _void:void')))  "instantiated generic" "invisible fn" "resolved")
+    (CallExpr
+      (SymExpr 'fn showMe:void')
+      (SymExpr "main()" 'val _str_literal_1838:string'))
+    (BlockStmt
+      (DefExpr 'val _endCountSave:_EndCount(atomic_int64,int(64))'  "temp")
+      (CallExpr move
+        (SymExpr 'val _endCountSave:_EndCount(atomic_int64,int(64))')
+        (CallExpr get end count))
+      (DefExpr 'val call_tmp:_EndCount(atomic_int64,int(64))'  "expr temp" "maybe param" "maybe type" "temp")
+      (CallExpr move
+        (SymExpr 'val call_tmp:_EndCount(atomic_int64,int(64))')
+        (CallExpr
+          (SymExpr 'fn _endCountAlloc:_EndCount(atomic_int64,int(64))')))
+      (CallExpr set end count
+        (SymExpr 'val call_tmp:_EndCount(atomic_int64,int(64))'))
+      (CallExpr
+        (SymExpr 'fn _upEndCount:void'))
+      (CallExpr
+        (SymExpr 'fn begin_fn:void'))
+      (DefExpr 'fn begin_fn:void'
+          (BlockStmt
+            (CallExpr
+              (SymExpr 'fn showMe:void')
+              (SymExpr "task body" 'val _str_literal_1840:string'))
+            (CallExpr
+              (SymExpr 'fn _downEndCount:void'))
+            (CallExpr return
+              (SymExpr 'val _void:void')))  "begin" "resolved")
+      (BlockStmt)
+      (CallExpr
+        (SymExpr 'fn _waitEndCount:void'))
+      (DefExpr 'val call_tmp:_EndCount(atomic_int64,int(64))'  "expr temp" "maybe param" "maybe type" "temp")
+      (CallExpr move
+        (SymExpr 'val call_tmp:_EndCount(atomic_int64,int(64))')
+        (CallExpr get end count))
+      (CallExpr
+        (SymExpr 'fn _endCountFree:void')
+        (SymExpr 'val call_tmp:_EndCount(atomic_int64,int(64))'))
+      (CallExpr set end count
+        (SymExpr 'val _endCountSave:_EndCount(atomic_int64,int(64))')))
+    (CallExpr return
+      (SymExpr 'val _void:void')))
+
+digraph G { 
+node0 -> node8[label=ch] 
+node8 -> node9[label=ch] 
+node9 -> node12[label=ch] 
+node9 -> node10[label=fc]
+node10 -> node11[label=ch] 
+node0 -> node1[label=fc]
+node1 -> node6[label=ch] 
+node6 -> node7[label=ch] 
+node1 -> node2[label=fc]
+node2 -> node3[label=ch] 
+node3 -> node4[label=ch] 
+node2 -> node5[label=cc]
+node5 -> node4[label=ch] 
+}
+The use is in node id 2
+idToString.chpl:10: In function 'main':
+idToString.chpl:16: warning: Potential unsafe (use after free) use of variable idStr here. Please make sure the variable use is properly synced.
+The use is in node id 5
+idToString.chpl:10: In function 'main':
+idToString.chpl:16: warning: Potential unsafe (use after free) use of variable idStr here. Please make sure the variable use is properly synced.
+front node  0
+front node  0
+The collecting for node id 0
+front node  0
+The collecting for node id 0
+The collecting for node id 10
+The error is in node id 2
+The collecting for node id 0
+The collecting for node id 10
+The error is in node id 2

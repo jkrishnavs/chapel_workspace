@@ -1,0 +1,10 @@
+digraph G { 
+node0 -> node7done[label=ch] 
+node7done -> node8[label=ch] 
+node0 -> node1[label=fc]
+node1 -> node4done[label=ch] 
+node4done -> node5done1[label=ch] 
+node5done1 -> node6[label=ch] 
+node1 -> node2done1[label=fc]
+node2done1 -> node3[label=ch] 
+}

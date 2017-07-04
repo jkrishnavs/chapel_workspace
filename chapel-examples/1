@@ -1,0 +1,135 @@
+'fn test:void'
+  (BlockStmt
+    (DefExpr 'x:int(64)'  "insert auto destroy")
+    (DefExpr 'type_tmp:int(64)'  "temp")
+    (CallExpr move
+      (SymExpr 'type_tmp:int(64)')
+      (SymExpr 0 '_literal_1:int(64)'))
+    (CallExpr move
+      (SymExpr 'x:int(64)')
+      (SymExpr 'type_tmp:int(64)'))
+    (DefExpr 's1$:_syncvar(bool)'  "insert auto destroy")
+    (DefExpr 'type_tmp:_syncvar(bool)'  "temp")
+    (DefExpr 'call_tmp:_syncvar(bool)'  "expr temp" "maybe param" "maybe type" "temp" "type variable")
+    (CallExpr move
+      (SymExpr 'type_tmp:_syncvar(bool)')
+      (CallExpr
+        (SymExpr 'fn _defaultOf:_syncvar(bool)')))
+    (CallExpr move
+      (SymExpr 's1$:_syncvar(bool)')
+      (SymExpr 'type_tmp:_syncvar(bool)'))
+    (CallExpr
+      (SymExpr 'fn =:void')
+      (SymExpr 'x:int(64)')
+      (SymExpr 5 '_literal_34:int(64)'))
+    (CallExpr
+      (SymExpr 'fn _upEndCount:void'))
+    (DefExpr 'fn begin_fn:void'
+        (DefExpr 'arg x:_ref(int(64))' )
+        (DefExpr 'arg s1$:_syncvar(bool)' )
+        (BlockStmt
+          (BlockStmt
+            (CallExpr
+              (SymExpr 'fn _upEndCount:void'))
+            (DefExpr 'fn begin_fn:void'
+                (DefExpr 'arg x:_ref(int(64))' )
+                (DefExpr 'arg s1$:_syncvar(bool)' )
+                (BlockStmt
+                  (BlockStmt
+                    (DefExpr 'coerce_tmp:int(64)'  "coerce temp" "temp")
+                    (CallExpr move
+                      (SymExpr 'coerce_tmp:int(64)')
+                      (CallExpr deref
+                        (SymExpr 'arg x:_ref(int(64))')))
+                    (CallExpr
+                      (SymExpr 'fn writeln:void')
+                      (SymExpr 'coerce_tmp:int(64)'))
+                    (CallExpr
+                      (SymExpr 'fn =:void')
+                      (SymExpr 'arg s1$:_syncvar(bool)')
+                      (SymExpr 'true:bool')))
+                  (CallExpr
+                    (SymExpr 'fn _downEndCount:void'))
+                  (CallExpr return
+                    (SymExpr '_void:void')))  "begin" "resolved")
+            (CallExpr
+              (SymExpr 'fn begin_fn:void')
+              (SymExpr 'arg x:_ref(int(64))')
+              (SymExpr 'arg s1$:_syncvar(bool)'))
+            (BlockStmt)
+            (CallExpr
+              (SymExpr 'fn _upEndCount:void'))
+            (DefExpr 'fn begin_fn:void'
+                (DefExpr 'arg s1$:_syncvar(bool)' )
+                (BlockStmt
+                  (BlockStmt
+                    (DefExpr '_return_tmp_:bool'  "temp")
+                    (CallExpr move
+                      (SymExpr '_return_tmp_:bool')
+                      (CallExpr
+                        (SymExpr 'fn _statementLevelSymbol:bool')
+                        (SymExpr 'arg s1$:_syncvar(bool)'))))
+                  (CallExpr
+                    (SymExpr 'fn _downEndCount:void'))
+                  (CallExpr return
+                    (SymExpr '_void:void')))  "begin" "resolved")
+            (CallExpr
+              (SymExpr 'fn begin_fn:void')
+              (SymExpr 'arg s1$:_syncvar(bool)'))
+            (BlockStmt))
+          (CallExpr
+            (SymExpr 'fn _downEndCount:void'))
+          (CallExpr return
+            (SymExpr '_void:void')))  "begin" "resolved")
+    (CallExpr
+      (SymExpr 'fn begin_fn:void')
+      (SymExpr 'x:int(64)')
+      (SymExpr 's1$:_syncvar(bool)'))
+    (BlockStmt)
+    (CallExpr return
+      (SymExpr '_void:void')))
+
+mustcreateerror.chpl:9: note: Symbol Expression at this point
+
+(CallExpr move
+  (SymExpr 'coerce_tmp:int(64)')
+  (CallExpr deref
+    (SymExpr 'arg x:_ref(int(64))')))
+
+mustcreateerror.chpl:10: note: Symbol Expression at this point
+
+(CallExpr
+  (SymExpr 'fn =:void')
+  (SymExpr 'arg s1$:_syncvar(bool)')
+  (SymExpr 'true:bool'))
+
+mustcreateerror.chpl:2: note: Symbol Expression at this point
+
+(CallExpr
+  (SymExpr 'fn begin_fn:void')
+  (SymExpr 'arg x:_ref(int(64))')
+  (SymExpr 'arg s1$:_syncvar(bool)'))
+
+mustcreateerror.chpl:3: note: Symbol Expression at this point
+
+(CallExpr
+  (SymExpr 'fn begin_fn:void')
+  (SymExpr 'arg x:_ref(int(64))')
+  (SymExpr 'arg s1$:_syncvar(bool)'))
+
+mustcreateerror.chpl:14: note: Symbol Expression at this point
+
+(CallExpr move
+  (SymExpr '_return_tmp_:bool')
+  (CallExpr
+    (SymExpr 'fn _statementLevelSymbol:bool')
+    (SymExpr 'arg s1$:_syncvar(bool)')))
+
+mustcreateerror.chpl:3: note: Symbol Expression at this point
+
+(CallExpr
+  (SymExpr 'fn begin_fn:void')
+  (SymExpr 'arg s1$:_syncvar(bool)'))
+
+mustcreateerror.chpl:1: In function 'test':
+mustcreateerror.chpl:3: warning: Unsynchronized use of external variable(s1$). This could result in incorrect/unintended program behaviour.

@@ -1,0 +1,2 @@
+issue-00.chpl:6: In function 'test2':
+issue-00.chpl:8: warning: Potential unsafe (use after free) use of variable x2 here. Please make sure the variable use is properly synced.

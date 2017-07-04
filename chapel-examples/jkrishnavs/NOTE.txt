@@ -1,0 +1,2 @@
+issue-2.txt : single should show error in seocnd use.
+issue-3.txt : the second use should also give error.

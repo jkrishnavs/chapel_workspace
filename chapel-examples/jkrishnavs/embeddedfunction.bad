@@ -1,0 +1,2 @@
+embeddedfunction.chpl:1: In function 'test':
+embeddedfunction.chpl:5: warning: Potential unsafe (use after free) use of variable x here. Please make sure the variable use is properly synced.

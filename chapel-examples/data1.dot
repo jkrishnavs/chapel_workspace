@@ -1,0 +1,10 @@
+digraph G {
+r -> rOdone[label=ch]
+rOdone -> rOOdone[label=ch]
+rOOdone -> rOOO[label=ch]
+rOdone -> rOFdone[label=fc]
+rOFdone -> rOFO[label=ch]
+r -> rFdone[label=fc]
+rFdone -> rFO[label=ch]
+}
+
