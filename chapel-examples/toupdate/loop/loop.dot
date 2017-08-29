@@ -1,0 +1,7 @@
+digraph G {
+node0 -> node4s[label=ch]
+node4s -> node5[label=ch]
+node0 -> node1s[label=bfc]
+node1s -> node2s[label=ch]
+node2s -> node3[label=ch]
+}
